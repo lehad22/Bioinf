@@ -1,0 +1,1679 @@
+########################################
+# Program: water
+# Rundate: Thu 30 Mar 2023 12:37:22
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20230330-123706-0001-66383768-p2m.asequence
+#    -bsequence emboss_water-I20230330-123706-0001-66383768-p2m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: c7687490-7668421
+# 2: 69471174-69482699
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20500
+# Identity:    8061/20500 (39.3%)
+# Similarity:  8061/20500 (39.3%)
+# Gaps:       10435/20500 (50.9%)
+# Score: 16289.0
+# 
+#
+#=======================================
+
+c7687490-7668      1 CTCA--------AAAG-TCTAGAGC-------------CACCGTCCAGGG     28
+                     ||||        |||| |||..|||             .|||.|||.||.
+69471174-6948     28 CTCACCCTGGCTAAAGTTCTGTAGCTTCAGTTCATTGGGACCATCCTGGC     77
+
+c7687490-7668     29 AGCAGGTAGCTGCTGGGCTCC-----GGGGACACTTTGCGTTCGGG----     69
+                     .|.|||||||     |.||.|     ||||.|||.|.||.|||.||    
+69471174-6948     78 TGTAGGTAGC-----GACTACAGTTAGGGGGCACCTAGCATTCAGGCCCT    122
+
+c7687490-7668     70 ----CTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTG--GATTG    113
+                         ||     |.|.|||.|||..|.||||.||||||||.|.|  ||.||
+69471174-6948    123 CATCCT-----CCTCCTTCCCAGCAGGGTGTCACGCTTCTCCGAAGACTG    167
+
+c7687490-7668    114 GGTAAGCTCCTGACTGAACTTGATGAGTCCTCTCTGAGTCACGGGCTCTC    163
+                     ||||||....||| |||.|.|||.|||.||||||  .|||||.|||||| 
+69471174-6948    168 GGTAAGTAATTGA-TGAGCGTGACGAGACCTCTC--GGTCACTGGCTCT-    213
+
+c7687490-7668    164 GGCTCCGTGTATTTTC--------AGCTCGGGAAAATCGCTGGGG-CTGG    204
+                       |||||    |||.|        |.||.|.|||||.|| ||||| .|||
+69471174-6948    214 --CTCCG----TTTGCATCCATAAAACTAGAGAAAACCG-TGGGGTTTGG    256
+
+c7687490-7668    205 GGGTGGGGCAGT--GGGGACTTAGCGAGTTTGGGGGTGAGTGGGATGGAA    252
+                     ||||||||||||  |||||||.||||.| .|||.|.||.|.||.||||||
+69471174-6948    257 GGGTGGGGCAGTGGGGGGACTCAGCGCG-ATGGAGATGGGCGGAATGGAA    305
+
+c7687490-7668    253 GCTTGGCTAGAGGGATCATC--------ATAGG--AGTTGCATTGTTGGG    292
+                     |||||||..|.|||||.|.|        |||.|  ||.|||  |||.|.|
+69471174-6948    306 GCTTGGCGGGCGGGATGAACGGGAGTGTATATGTCAGATGC--TGTAGTG    353
+
+c7687490-7668    293 AGACCTGGGT-GTAGATGATGGGGATGTTAGGACC-ATCCGA-ACTCAAA    339
+                     |     |||| |..|||||||..|||||||||||| |  ||| .||||..
+69471174-6948    354 A-----GGGTAGCTGATGATGATGATGTTAGGACCGA--CGAGCCTCACT    396
+
+c7687490-7668    340 GT--TGAACGCCTAGGCAGAGGAGTGGAGC-TTTGGGGAACCTTGAGCCG    386
+                     ||  ||  |.|||  |||   .|||.|||| |.|.||||.|..||||..|
+69471174-6948    397 GTCATG--CACCT--GCA---AAGTAGAGCATATAGGGACCACTGAGATG    439
+
+c7687490-7668    387 GCCTAAAGCGTACTTCT------------TTGCAC------ATCCACCCG    418
+                     ||||||.|.|| .||||            |||.||      |||..||||
+69471174-6948    440 GCCTAAGGGGT-TTTCTCTCCGCTACGCGTTGTACACACTTATCTGCCCG    488
+
+c7687490-7668    419 GTGCTGGGCGTAGGGAATC-CCTGAAATAAAAGATGCACAAAGCATTGAG    467
+                     .||||.||.| |.||||.| ||.|||||  ||.|||||||||||| ..||
+69471174-6948    489 CTGCTAGGTG-ATGGAAGCTCCGGAAAT--AACATGCACAAAGCA-CCAG    534
+
+c7687490-7668    468 G-TCTGAGACTTTTGGATCTCGAAACATTGAGAACTCATAGCTGTATATT    516
+                     | |.|.|||.||||.||               .|.||||||||..|.|.|
+69471174-6948    535 GATTTAAGATTTTTCGA---------------GATTCATAGCTTAAGACT    569
+
+c7687490-7668    517 TTAGA--GCCCATGGCATCCTAGTGAAAACTGGGGCTCCATTCC--GAAA    562
+                     |.|||  .|||||.||||||||.|||||.|..|||.|||.||||  ||..
+69471174-6948    570 TAAGACCCCCCATAGCATCCTAATGAAACCCTGGGTTCCGTTCCTGGATG    619
+
+c7687490-7668    563 TGATCATTTGGGGGTGATCCGGGGAGCCCAAGCTGCTAAGGTCCCACAAC    612
+                     .||||     ||||||||||||||||||..|||||||||||||||.||||
+69471174-6948    620 AGATC-----GGGGTGATCCGGGGAGCCTTAGCTGCTAAGGTCCCGCAAC    664
+
+c7687490-7668    613 TTCCGGACCTTTGTCCTTCCTGGAGCGA--------TCTTTCCAGGCAGC    654
+                     |||||||||||||||   |||||||.||        |.|||||| ||.||
+69471174-6948    665 TTCCGGACCTTTGTC---CCTGGAGTGATTTCTTTTTTTTTCCA-GCCGC    710
+
+c7687490-7668    655 -CCCCGGCTCCGCTAGATGGAGAAAATCCAATTGAAGGCTGTCAGTCGTG    703
+                      .|.||.|.|.||||||||.|||||||||||...|||.||          
+69471174-6948    711 TTCTCGACCCTGCTAGATGAAGAAAATCCAAGAAAAGCCT----------    750
+
+c7687490-7668    704 GAAG---TGAGAAGTGCTAAACCAG--GGGTTTGCCCGCCAGGCCGAGGA    748
+                     ||||   | ||..||||| |.||||  |..|||||||.|         |.
+69471174-6948    751 GAAGCACT-AGCGGTGCT-AGCCAGAAGTATTTGCCCTC---------GG    789
+
+c7687490-7668    749 GGACCGTCGCA--------ATCTGAGAGGCCCGGCAGCCCTGTTATTGTT    790
+                     ||.|||.|.||        .|||||.|||||||.|.||||||||||||||
+69471174-6948    790 GGCCCGACTCAGCCTCTTGGTCTGAAAGGCCCGCCGGCCCTGTTATTGTT    839
+
+c7687490-7668    791 TGGCTCCACATTTACATTTCTGCCTCTTGCAGCAGCATTTCCGGTTTCTT    840
+                     |||||||   |||||.||||||||.|||||||.|||||||||||||||||
+69471174-6948    840 TGGCTCC---TTTACGTTTCTGCCGCTTGCAGGAGCATTTCCGGTTTCTT    886
+
+c7687490-7668    841 TTTGCCGGAGCAGCTCACTATTCACCCGATGAGAGGGGAGGAGAGA---G    887
+                     .||..||||||||.|||||..||.||||..||..||||||.||.||   |
+69471174-6948    887 GTTTTCGGAGCAGATCACTGCTCGCCCGGCGACGGGGGAGTAGCGAAAGG    936
+
+c7687490-7668    888 AGAGAAAATGTCCTTTAGGCCGGTTCCTCT-TACTTGGCAGAGGGAGGCT    936
+                     .||| |||||...|.|||||.|||   ||| |..||.|..||||.|..||
+69471174-6948    937 GGAG-AAATGGATTCTAGGCTGGT---TCTGTGGTTTGAGGAGGAAAACT    982
+
+c7687490-7668    937 GCTATTCTCCGCCTG-CAT-TTCTTTTTCTGGATTACTTAGTTATGGCCT    984
+                     |||.|.|||     | ||| ||.||||||||||||||||.|||||.||.|
+69471174-6948    983 GCTGTCCTC-----GACATCTTATTTTTCTGGATTACTTGGTTATTGCTT   1027
+
+c7687490-7668    985 TTGCAAAGGCAGGGGTATTTGTTTTGATGCAAACCTCAATCCCTCCCCTT   1034
+                     |||||||||                                         
+69471174-6948   1028 TTGCAAAGG-----------------------------------------   1036
+
+c7687490-7668   1035 CTTTGAATGGTGTGCCCCACCCCGCGGGTCGCCTGCAACCTAGGCGGACG   1084
+                                                                       
+69471174-6948   1037 --------------------------------------------------   1036
+
+c7687490-7668   1085 CTACCATGGCGTGAGACAGGGAGGGAAAGAAGTGTGCAGAAGGCAAGCCC   1134
+                                                                      .
+69471174-6948   1037 -------------------------------------------------A   1037
+
+c7687490-7668   1135 GGAGGTATTTTCAAGAATGAGTATATCTCATCTTCCCGGAGGAAAAAAAA   1184
+                     ||||||.|||                                        
+69471174-6948   1038 GGAGGTGTTT----------------------------------------   1047
+
+c7687490-7668   1185 AAAGAATGGGTACGTCTGAGAATCAAATTTTGAAAGAGTGCAATGATGGG   1234
+                                                .|||.|||||||||...|||.||
+69471174-6948   1048 ---------------------------ATTTAAAAGAGTGCGCCGATAGG   1070
+
+c7687490-7668   1235 TCGTTTGATAATT--TGTCGGAAAAACAATCTACCTGTTATCTAGCTTTG   1282
+                     ||||||    .||  ||.|||||||.|||..||||...||||..|.|||.
+69471174-6948   1071 TCGTTT----CTTCCTGCCGGAAAAGCAAATTACCGAGTATCCGGTTTTA   1116
+
+c7687490-7668   1283 GGCTAGGCCATTCCAGTTCCAGACGCAGGCTGAACGTCGTG-AAGCGGAA   1331
+                     ||.|..||||||||..|.|...|||||..|.|..||||.|| ||||||||
+69471174-6948   1117 GGGTGAGCCATTCCCTTGCTTAACGCATTCCGCGCGTCCTGAAAGCGGAA   1166
+
+c7687490-7668   1332 GGGGCGGGC-----CCGCAGGCGTCCGTGTGGTCCTCCGTGCAGCCCTCC   1376
+                     |||||||||     ||.|.||||.||| |.||||||..||||||.|..||
+69471174-6948   1167 GGGGCGGGCTTGGGCCCCGGGCGCCCG-GCGGTCCTAAGTGCAGTCAGCC   1215
+
+c7687490-7668   1377 GGCCCGAGCCGGTTCTTCC---TGGTAGGAGGCGGAACTC----------   1413
+                     .||.|.|.|||||||||||   .||.|||.|||||.||||          
+69471174-6948   1216 CGCACCATCCGGTTCTTCCCAGCGGGAGGTGGCGGGACTCTGCCTGGGCG   1265
+
+c7687490-7668   1414 ----GAATTCATTTCTCCCGCTGCCCCATCTCTTAGCTCGCGGTTGTTTC   1459
+                         ..||.|.|.|| |||||..|..||..|.||||..| .|||..||||
+69471174-6948   1266 TGGGCTATGCCTGTC-CCCGCCACTTCAATTTTTAGAAC-AGGTCATTTC   1313
+
+c7687490-7668   1460 ATTCCGCAGTTTCTTCCCATGCACCTGCCGCGTACCGGCCACTTTGTGCC   1509
+                     |||  .|||||||||   ||        ||||.|||.|  ||.|.|||  
+69471174-6948   1314 ATT--ACAGTTTCTT---AT--------CGCGCACCAG--ACATCGTG--   1346
+
+c7687490-7668   1510 GTACTTACGT-CATCTTTTTCCT------AAAT-CGAGGTGGCATTTACA   1551
+                            ||| |.|.||||||.|      |||| |       .||||.||
+69471174-6948   1347 -------CGTGCCTTTTTTTCTTTTGTAAAAATAC-------TATTTCCA   1382
+
+c7687490-7668   1552 CACAGCGCCAGTGCACACAGCAAGTGCACAGGAAGATGAGTTTTGGCCCC   1601
+                     |||                     |||||             ||||    
+69471174-6948   1383 CAC---------------------TGCAC-------------TTGG----   1394
+
+c7687490-7668   1602 TAACCGCTCCGTGATGCCTACCAAGTCACAGACCCTTTTCATCGTCCCAG   1651
+                                                             ||||     |
+69471174-6948   1395 ----------------------------------------ATCG-----G   1399
+
+c7687490-7668   1652 AAACGTTTCATCACGTCTCTTCCCAGTCGATTCCCGACCCCACCTTTATT   1701
+                     .|                      |||..|||                ||
+69471174-6948   1400 GA----------------------AGTAAATT----------------TT   1411
+
+c7687490-7668   1702 TTGATCTCCATAACCATTTTGCCTGTTGGAGAACTTCATATAGAATGGAA   1751
+                     ||  |.|||||                                       
+69471174-6948   1412 TT--TGTCCAT---------------------------------------   1420
+
+c7687490-7668   1752 TCAGGCTGGGCGCTGTGGCTCACGCCTGCACTTTGGGAGGCCGAGGCGGG   1801
+                                              |||.|                    
+69471174-6948   1421 -------------------------CTGAA--------------------   1425
+
+c7687490-7668   1802 CGGATTACTTGAGGATAGGAGTTCCAGACCAGCGTGGCCAACGTGGTGAA   1851
+                       ||||            .||||.|                   |||   
+69471174-6948   1426 --GATT------------TAGTTTC-------------------GGT---   1439
+
+c7687490-7668   1852 TCCCCGTCTCTACTAAAAAATACAAAAATTAGCTGGGCGTGGTGGGTGCC   1901
+                                 |||||.||||.|               ||.|.|||   
+69471174-6948   1440 ------------CTAAAGAATAAA---------------TGATAGGT---   1459
+
+c7687490-7668   1902 TGTAATCCCAGCTATTCGGGAGGGTGAGGCAGGAGAATCGCTTGAACCCG   1951
+                                                      |||           |||
+69471174-6948   1460 ---------------------------------AGA-----------CCG   1465
+
+c7687490-7668   1952 GGAGGCAGAGGTTGCAGTGAGCCAAGATCGTGCCACTACACTCCAGCCTG   2001
+                     ||||||                                            
+69471174-6948   1466 GGAGGC--------------------------------------------   1471
+
+c7687490-7668   2002 GGCGACAAGAACGAAACTCCGTCTCAAAAAAAAGGGGGGAATCATACATT   2051
+                                                      |||||||          
+69471174-6948   1472 ---------------------------------GGGGGGA----------   1478
+
+c7687490-7668   2052 ATGTGCTCATTTTTGTCG-GGCTTCTGTCCTTCAATGTACTGTCTGACAT   2100
+                            |.||.||.||| ||||||.|                |||    
+69471174-6948   1479 -------CTTTGTTTTCGTGGCTTCAG----------------CTG----   1501
+
+c7687490-7668   2101 TCGTTCATGTTGTATATATCAGTATTTTGCTCCTTTTCATTTAGTATAGT   2150
+                                   ||.|.|.|||                  ||.| ||.
+69471174-6948   1502 --------------TAAAGCCGTA------------------AGGA-AGA   1518
+
+c7687490-7668   2151 CCATCGATTGTATATCCGTCCTTTTGATGGCCTTTTGAGTTGTTTCCCAT   2200
+                     |         ||.|||| |||..||.|       |||||           
+69471174-6948   1519 C---------TAGATCC-TCCAGTTCA-------TTGAG-----------   1540
+
+c7687490-7668   2201 TTGCGGTTATGAAATAAAGCTGCTATAAACATTCTTGTACAATTCTTTTT   2250
+                                    ||||    ||||                       
+69471174-6948   1541 ---------------AAAG----TATA-----------------------   1548
+
+c7687490-7668   2251 GTGATCATATGTTTTCGTGTTTCTTGGAGAAATACTTAGGAGGGGAATTG   2300
+                          ||.|||..|||                 |||||            
+69471174-6948   1549 -----CAAATGACTTC-----------------ACTTA------------   1564
+
+c7687490-7668   2301 CGAGTTTG------GAAGTAAAAAGTAGCTGTATTTTGAACTTTTTCAGA   2344
+                      .|.||||      ||||..||...||||||     ||||..||   |||
+69471174-6948   1565 -AACTTTGACGCGCGAAGGGAACCCTAGCTG-----TGAAGGTT---AGA   1605
+
+c7687490-7668   2345 AGCTCTG---AGTTTTCCAGAGCGGTTGTACCATTTTACACTCCAACTAG   2391
+                         |||   ||    |||.||||||                        
+69471174-6948   1606 ----CTGGACAG----CCACAGCGGT------------------------   1623
+
+c7687490-7668   2392 CAAGGTATGGGAGTTATTATGGTTGTGCC--ACAGCCTTCCGGACATTAG   2439
+                     |.|||.||  |..||.|||||       |  |.|||||.||.|       
+69471174-6948   1624 CCAGGGAT--GCCTTCTTATG-------CAAATAGCCTCCCTG-------   1657
+
+c7687490-7668   2440 GTATTGTCAGTCTTTCTAATGTGGTATATCCTTG--TGGTTGTAATTTAC   2487
+                                  .|||    ||..||.||.|||  |||     ||||  
+69471174-6948   1658 -------------CTCT----TGCAATCTCTTTGACTGG-----ATTT--   1683
+
+c7687490-7668   2488 AGT-------TCTCTATTGACTAAGGATGTT-------------CAGCAT   2517
+                     |||       |||||..|||      |||||             |.|.| 
+69471174-6948   1684 AGTGAAGGACTCTCTTGTGA------ATGTTAAAAGATCCCAACCCGAA-   1726
+
+c7687490-7668   2518 TTTTTC------ATGTGCCTATTGGCCATTCGTATTTTGTTTGTAAA-GT   2560
+                        .||      |.|||||..|.|||    |..||.||||||..||| ||
+69471174-6948   1727 ---GTCAAAAGGAGGTGCCCCTAGGC----CCCATCTTGTTTACAAATGT   1769
+
+c7687490-7668   2561 AGCTCTTCGAGTCTTTTACCTGTTATTTTGGTTTTTTGTTTGTTTTTATT   2610
+                     ||             .||..|||.|.||.|.||||||||||.|||||   
+69471174-6948   1770 AG-------------ATATATGTAAATTGGTTTTTTTGTTTTTTTTT---   1803
+
+c7687490-7668   2611 GTTCAGTTGTGGGACTGCTTTATACATTCTGGATACAAGTCCTTTATCAG   2660
+                                       |||.||||   |..|.||||   ||||...||
+69471174-6948   1804 ------------------TTTTTACA---TAAAGACAA---CTTTGGAAG   1829
+
+c7687490-7668   2661 ATCCATGTGTCGTGAATGTTTTCTTCTGATCTGTTGCTTGCCTATTTGTT   2710
+                     ||                .|||...|||.||       |.||..|||.|.
+69471174-6948   1830 AT----------------ATTTACCCTGCTC-------TTCCAGTTTCTC   1856
+
+c7687490-7668   2711 TGCTTTACAGAGTTTACAGTATCTTAAGAGGAGT---GGATTTATCTTTT   2757
+                     |.||.|..|.|.||||      ||..|||||.||   |||          
+69471174-6948   1857 TTCTCTGAATAATTTA------CTGCAGAGGGGTTTGGGA----------   1890
+
+c7687490-7668   2758 TTATGTTCAGTATTTGCCTTGTCCTGTTTAGGACATCTTTTTTTTTTTTT   2807
+                       ||||                 |||    |||                 
+69471174-6948   1891 --ATGT-----------------CTG----GGA-----------------   1900
+
+c7687490-7668   2808 TTAACCCCAGGGTCATGAAG-ATATTATCTTACATTTTCTTTTAGGACCT   2856
+                             .||||     || ||||                         
+69471174-6948   1901 --------TGGGT-----AGTATAT-------------------------   1912
+
+c7687490-7668   2857 TTATGGTTGTAAGTTTTACAGTAAGGTCCTTGAGCCATTAATTAATTCTT   2906
+                                                      ||..||||.|.||.|||
+69471174-6948   1913 ---------------------------------GCACTTAAATTATGCTT   1929
+
+c7687490-7668   2907 AAAATTAATTGTTTATGGTGTGAGGTGTAGGAGTCAGTCTCTGGTATCTT   2956
+                     |||                              |||   ||| |||.|||
+69471174-6948   1930 AAA------------------------------TCA---TCT-GTAGCTT   1945
+
+c7687490-7668   2957 --------TCCTGTA-TGGAAATCCAGTTATTCTGTCTCCACTTGTTGAA   2997
+                             .||||.| ||.||||   |||||||               ||
+69471174-6948   1946 ACATATGACCCTGCACTGTAAAT---GTTATTC---------------AA   1977
+
+c7687490-7668   2998 ATAGGCTTCCTTTCTCTACTGAATGCTTTTAATTTTAATTATTTTACAGT   3047
+                     |||                  ||||                  ||||.| 
+69471174-6948   1978 ATA------------------AATG------------------TTACCG-   1990
+
+c7687490-7668   3048 TGGAGTATAGGGCTACCATTTTAGTGCTATTTTCTTTTTTTCTTTGTTAA   3097
+                                                                 ||||.|
+69471174-6948   1991 --------------------------------------------TGTTGA   1996
+
+c7687490-7668   3098 TTTTTGAGACAGGGACTCACACTGTTGCCCAGGCTAGAGTACAATGGCAC   3147
+                        .|||.|.|.|||            .|||||||.|     |.|||.||
+69471174-6948   1997 ---CTGAAAAAAGGA------------GCCAGGCTGG-----ACTGGGAC   2026
+
+c7687490-7668   3148 AATCAAGGCTTACTGC-AGCCTCGAACCCCTGGGCTCAAGCAGTCCTCTA   3196
+                           .|..|.|||| |||||..|||||       |||           
+69471174-6948   2027 ------CGGGTGCTGCAAGCCTTTAACCC-------CAA-----------   2052
+
+c7687490-7668   3197 GCAGCCTCACGAGTAGCT-GGGATTACTCCACCACACCCAGCTAACTATT   3245
+                                   |||| ||||                           
+69471174-6948   2053 --------------AGCTAGGGA---------------------------   2061
+
+c7687490-7668   3246 TTATTTTTTTGTATTGACAGGATCTCACTATGTTGCCCAGGCTGGTCTCA   3295
+                                                      .|||.||||.||  |||
+69471174-6948   2062 ---------------------------------GGCCGAGGCAGG--TCA   2076
+
+c7687490-7668   3296 A-ACTGCTGGCCTCA-AGCTTTCATCCCATCTCGGCCTCCCAAAG---TG   3340
+                     | |         ||| ||.||      ||    ||||..||||||   ||
+69471174-6948   2077 ATA---------TCAGAGATT------CA----GGCCAGCCAAAGATATG   2107
+
+c7687490-7668   3341 CTGGGATTACAGGTGTGAGCCACCATGCCTGACCTCTTAGTGCTATTTTC   3390
+                     |..|||                        ||||                
+69471174-6948   2108 CAAGGA------------------------GACC----------------   2117
+
+c7687490-7668   3391 TATTTATCTCCTCTGTTCTCTGCTCTCTTTAAACGTTGGAGGAAGAAACA   3440
+                        .||||||                    |||         ||||||.|
+69471174-6948   2118 ---CTATCTC--------------------AAA---------AAGAAAAA   2135
+
+c7687490-7668   3441 ---GT-ACCCATCTTACACAAACTCTTCAGA---AAACAGAGGAACAGAC   3483
+                        || ||..||.||      |.|.||||.|   |.|||       ||| 
+69471174-6948   2136 TATGTCACGTATGTT------AATATTCACACTGACACA-------AGA-   2171
+
+c7687490-7668   3484 TGGGCGCGGTGGCTCATACCTGTAATCTCAGCACTTTGGTAC-GCTGAG-   3531
+                                           |||.||  ||    ||.||| |.|||| 
+69471174-6948   2172 ----------------------TAACCT--GC----TGCTACAGTTGAGT   2193
+
+c7687490-7668   3532 -GCAG-GGGATCATTTGAG--------GTCGGGAGTTCGAGACCAGCCTG   3571
+                      |||| ||||       ||        |||..||||||.||||||...||
+69471174-6948   2194 AGCAGTGGGA-------AGCCTCGACAGTCTCGAGTTCCAGACCACAGTG   2236
+
+c7687490-7668   3572 GCCAACACGGCGAAACCCCATCTCTACTAAAAATACAAAAAGTAGCTAGG   3621
+                     .|||       ||    ||||                             
+69471174-6948   2237 TCCA-------GA----CCAT-----------------------------   2246
+
+c7687490-7668   3622 CGTGGTGACACATACCTGTAATGCCAGTTACTCAGGAGGCTGAGGCA---   3668
+                              |||||                           ||||.|   
+69471174-6948   2247 ---------ACATA---------------------------GAGGGAGTT   2260
+
+c7687490-7668   3669 CAAG--AATCCCTTGAACCTGGGAAGCGGAGGTTGCAGTGAGCCGAGATT   3716
+                     ||||  .||||.|   .||||||.|      |||   ||.|||.||    
+69471174-6948   2261 CAAGGTCATCCTT---CCCTGGGTA------GTT---GTAAGCTGA----   2294
+
+c7687490-7668   3717 GCGCCACTGCACTCCAGCCTGGGCAACAGAGTGAGACCCTGTC-TCAGAA   3765
+                                      |.||.|..|   |.|||||  .|||| ||    
+69471174-6948   2295 -----------------CTTGAGATA---AATGAGA--GTGTCTTC----   2318
+
+c7687490-7668   3766 AAAAAAAGAAAGAAAGAAAAAATAGAGGAATATTTCCCAACTTGTTTTCG   3815
+                       |||||.|.|||||||                                 
+69471174-6948   2319 --AAAAACAGAGAAAGA---------------------------------   2333
+
+c7687490-7668   3816 AAGCCAGCATAATCCTGGTACCAAAACCAAACAAGGACATTATAAGAAAA   3865
+                                      ||||.|||                         
+69471174-6948   2334 -----------------GTACAAAA-------------------------   2341
+
+c7687490-7668   3866 GAAAATATAGACCAATATTCCTGTTAGCATAGACATGCAACAGCTAACCA   3915
+                                           ||||.||                     
+69471174-6948   2342 ----------------------GTTAACA---------------------   2348
+
+c7687490-7668   3916 ATTTTAGCAAACCAAA----------------CCTGGTAATATAGAAAAA   3949
+                        ||.||||||||.|                ||||             |
+69471174-6948   2349 ---TTGGCAAACCAGAGCCTACTGGCCTTTCTCCTG-------------A   2382
+
+c7687490-7668   3950 AGGATAAAT-AGGCCAGTCGCGGTGGCTCACGCCTGTAATCCCAGCACT-   3997
+                     .||.||||| |||.| |||.||.||||.|..||||.||||.|.|.|||| 
+69471174-6948   2383 TGGGTAAATGAGGAC-GTCTCGATGGCCCGTGCCTTTAATGCTAACACTC   2431
+
+c7687490-7668   3998 TTGGGAGGCTGAGGCAGGCAGATCACTTGAGGTCAGGAGTTTGAGACCAG   4047
+                     ||||||.|||||||        |.|||||.|.|    |.||       ||
+69471174-6948   2432 TTGGGATGCTGAGG--------TAACTTGGGCT----ACTT-------AG   2462
+
+c7687490-7668   4048 CCTGACCAACATGGTGAAACCCCGTT-TCTAATAAAAATACAAAAATCAG   4096
+                     |..||||                 || |||.|.|||              
+69471174-6948   2463 CAAGACC-----------------TTGTCTCAGAAA--------------   2481
+
+c7687490-7668   4097 GCTGGGCACGGTGGCTCACGCCTGTAATCCCAGCACTTTGG-GA---GGC   4142
+                         ||||                 ||   ||||    ||| ||   |||
+69471174-6948   2482 ----GGCA-----------------AA---CAGC----TGGAGATATGGC   2503
+
+c7687490-7668   4143 CGAGGTGG-GCAGATCACGAGGTCAGGAGTTCAAGACCAGCCTGACCA--   4189
+                         .||| |.||||           .|.||||       ||||.|.|  
+69471174-6948   2504 ----TTGGAGTAGAT-----------TATTTCA-------CCTGGCAAAC   2531
+
+c7687490-7668   4190 ATG-------TGGTGAAACGCCATCTCTACTAAAAATACAAAAATCAGCC   4232
+                     |||       ||||..||    |||    ||.|.|..|||||||.||   
+69471174-6948   2532 ATGATACCCTTGGTTTAA----ATC----CTGAGACCACAAAAAACA---   2570
+
+c7687490-7668   4233 GGTGTGGTGGCACCTGCCTGTAATCCCAGCTACTCAGGAGGCTGAGGCAG   4282
+                          |||            |||.|||||||           |||   ..
+69471174-6948   2571 -----GGT------------TAAACCCAGCT-----------TGA---CC   2589
+
+c7687490-7668   4283 AATTGC--TTGAACCCGGGAGGCAGAGGTTGCAGT----GAGCCA-----   4321
+                     ||.|||  |||..||..|||        ||||.||    ||..||     
+69471174-6948   2590 AAGTGCCATTGGTCCATGGA--------TTGCTGTATTGGAATCAAACAG   2631
+
+c7687490-7668   4322 AGATC-GTGCCACTGCACTCCAG------CCTGGGCGACAGAGCAAGACT   4364
+                     |.||| .||.|| |.|||..|||      ||||||         ||.|||
+69471174-6948   2632 AAATCTATGTCA-TTCACAGCAGTAACCTCCTGGG---------AATACT   2671
+
+c7687490-7668   4365 TCATCTCAAAAAAAAAAAAAAATTAGCTGGGC-----ATGGTG------G   4403
+                     ||      ||.|.|...|.|||      ||||     |..|||      |
+69471174-6948   2672 TC------AAGAGACGGAGAAA------GGGCGACTGACTGTGCCCTCCG   2709
+
+c7687490-7668   4404 TGGGCACCT-----GAAATCCCAGCTACTCGG---GAGT-----------   4434
+                     |     |||     |.|||||  ..||.||.|   ||.|           
+69471174-6948   2710 T-----CCTTTTTCGCAATCC--TTTATTCTGTTCGAATCATAATTTGTT   2752
+
+c7687490-7668   4435 ---CTGAGGCAGGAGAATCGCT-TG-AACCCAGGAGGCAGAAGTTGCACT   4479
+                        |||||.|||| |..||.|| || |..||.||              ||
+69471174-6948   2753 TTCCTGAGACAGG-GTTTCTCTGTGTAGTCCTGG--------------CT   2787
+
+c7687490-7668   4480 GAGCTGGGATCACACCATTGCACTCCAGCCTGG---GCAACAGAGTGAGA   4526
+                     |..|||||| |.|.||..||.|..||||.||||   .||||.|..|..|.
+69471174-6948   2788 GTCCTGGGA-CTCCCCTCTGTAGACCAGGCTGGCCTCCAACTGTCTCTGC   2836
+
+c7687490-7668   4527 CTCC-----------ATCTCAAAAAAAGAAAAAGAAAAAGGATAAATACA   4565
+                     ||||           |||                  |||||     |.|.
+69471174-6948   2837 CTCCTATGTGCTGGGATC------------------AAAGG-----TGCC   2863
+
+c7687490-7668   4566 TTCTAACCAAATAATGTTTATCTCATGATTGTAGCTGATTCAACATTCAA   4615
+                     |.|.|.|            |.|.|.||      |||..||         |
+69471174-6948   2864 TGCCACC------------ACCGCCTG------GCTTCTT---------A   2886
+
+c7687490-7668   4616 AAATTG------GCCTGGTGCAGTAGCTCAG------GCCTGTAATCCCA   4653
+                     .|.|||      ||||  .|.||||    ||      ||||...||||||
+69471174-6948   2887 GAGTTGGGACAAGCCT--CGAAGTA----AGTTGGATGCCTAGGATCCCA   2930
+
+c7687490-7668   4654 ACATT--TTAGGAGGCTGAGGCAGGAAGATCTCTTGAGCCCAGGATTTCA   4701
+                     .||.|  |   |.||.|.||.|||.||       |||       |||| |
+69471174-6948   2931 GCACTACT---GTGGTTAAGACAGTAA-------TGA-------ATTT-A   2962
+
+c7687490-7668   4702 AGACCAGCCTGGGCAACATAGTCAGA--CTGGTCTTTACTG---GGGGGA   4746
+                     ||.||||||||||..|||||||.|||  || ||||..|  |   ||||||
+69471174-6948   2963 AGGCCAGCCTGGGATACATAGTGAGACCCT-GTCTCAA--GAAAGGGGGA   3009
+
+c7687490-7668   4747 AAAAAATCAGTCTGTGTAA-TTCACCACATTAACAAAGGGAAACATAAAA   4795
+                     ||              ||| |||    ||     ||||.|  ||||    
+69471174-6948   3010 AA--------------TAAGTTC----CA-----AAAGTG--ACAT----   3030
+
+c7687490-7668   4796 ACCCTATGATCATTTCAACAGATGTAGCAAAAGCAGTTAATGATATTCAA   4845
+                                 ||||.|   |.|| ||.|||||                
+69471174-6948   3031 ------------TTTCCA---AGGT-GCGAAAGC----------------   3048
+
+c7687490-7668   4846 CACATATGCATGATTACAAACCAACCAACCTCCTAGCAAACTAGGGAAAG   4895
+                             .|||.|                ||||       |||.|||||
+69471174-6948   3049 --------GATGGT----------------TCCT-------TAGAGAAAG   3067
+
+c7687490-7668   4896 GAAACTTAACCTAGTTTGATAACAGGGCGTCCACAGTCGGAGTTCCACTA   4945
+                           |.||   |||.||    ||||                       
+69471174-6948   3068 ------TGAC---GTTGGA----AGGG-----------------------   3081
+
+c7687490-7668   4946 GCAGCATACATAATGGTAGAAAACTCAGTGCTGCCGGGCGCGGTGGCTCA   4995
+                            |||     |.||.|||.|                      |.|
+69471174-6948   3082 -------ACA-----GAAGTAAATT----------------------TGA   3097
+
+c7687490-7668   4996 CGCCT--GTAATGCCAGCACTTTGGGAGGCCTAGGCGGGCGGATCACGAG   5043
+                     |.|||  ||.||     .|.|||||.|                       
+69471174-6948   3098 CTCCTTAGTTAT-----TAATTTGGTA-----------------------   3119
+
+c7687490-7668   5044 GTCAGGAGA-TCGAGACTGTCCTGACTAGCATGCTGAAACCCCGT---CT   5089
+                      ||    || |.||||    ||||..||..|.||||       ||   ||
+69471174-6948   3120 -TC----GATTTGAGA----CCTGGATAAAAAGCTG-------GTAAGCT   3153
+
+c7687490-7668   5090 CTACTAAAAATACAAAAACAAAAAATTAGCCGGGCATGGT---GGCGGGC   5136
+                     .||..||                          |.|.|||   ||.||||
+69471174-6948   3154 TTAGGAA--------------------------GGAAGGTAACGGTGGGC   3177
+
+c7687490-7668   5137 GC----CTATA-GTCCCAGCTACTCGGGAGG---------------CTGA   5166
+                     .|    ||.|| ||        ||.||..||               ||..
+69471174-6948   3178 ACGCATCTTTACGT--------CTTGGTTGGTTGGTTTTTTTTTGTCTCT   3219
+
+c7687490-7668   5167 GGC-GAGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGAGCCTAGAT   5215
+                     ||| ||.|.||    ||.|||                             
+69471174-6948   3220 GGCTGATAAAA----GTAAAC-----------------------------   3236
+
+c7687490-7668   5216 CGTGCCACTGCACTC-CAGCCTGGGTG--ACAGAGTGAGACTTCGTCTCA   5262
+                         ||||||   || ..|.||.||||  |.||||.|..|||        
+69471174-6948   3237 ----CCACTG---TCTTTGTCTTGGTGCAAGAGAGGGCTACT--------   3271
+
+c7687490-7668   5263 AAAAAAAAAAAAAAAAAAAAAGAAAAGAAAACTCAACGCTTTTTCCTCTA   5312
+                                                   |||  |.|||.||||     
+69471174-6948   3272 ------------------------------ACT--AGGCTATTTC-----   3284
+
+c7687490-7668   5313 AGATCAGGAACTAGAAAAGGATTTG--------ACTCTCACAACGTT---   5351
+                                    ||||  ||||        ||.||.||.|.|||   
+69471174-6948   3285 ---------------AAAG--TTTGCCAAATAAACACTTACCATGTTCTC   3317
+
+c7687490-7668   5352 ---GATACCATACTGGAGGTTTTA---ACCAGGCAAGAAAAAG----AAA   5391
+                        .||.|        |.||||||   ||      |.|||.||    |||
+69471174-6948   3318 TTGTATCC--------ACGTTTTAGTTAC------ATAAACAGTCTTAAA   3353
+
+c7687490-7668   5392 TAATGAGGGCCGGGTGCGGTGGCTCAGGCCTGTAATCCCAGCACTTTGGG   5441
+                              ||.|.||.|||||||||..||||.||.||||          
+69471174-6948   3354 ---------CCAGATGTGGTGGCTCACACCTGCAAGCCCA----------   3384
+
+c7687490-7668   5442 AAGCCGAGACGGGTGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCT   5491
+                                     ||     ||||||||                   
+69471174-6948   3385 ----------------AT-----GGTCAGGA-------------------   3394
+
+c7687490-7668   5492 AACACGGTGAAACCCTGTCTCTACTAAATATACAAAAAATTAGCCGGGCG   5541
+                                                                       
+69471174-6948   3395 --------------------------------------------------   3394
+
+c7687490-7668   5542 TAGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGA   5591
+                                            ||||               |||..|||
+69471174-6948   3395 -----------------------AGCT---------------GCAACAGA   3406
+
+c7687490-7668   5592 ATGGCGTGAACTCAGGGGGCGGAGCTTGCAGTG-AGCTGAGATCGAGCCA   5640
+                     |      |||           |.||   ||.|| |||      |||||||
+69471174-6948   3407 A------GAA-----------GTGC---CATTGTAGC------CGAGCCA   3430
+
+c7687490-7668   5641 CTGCACTCCAGCCTG-GGCGACAGAGCAAGACTGTGTCTCA----AAAAA   5685
+                             |||..|| ||||||            |||||||    |.|||
+69471174-6948   3431 --------CAGAGTGAGGCGAC------------TGTCTCAGAGTACAAA   3460
+
+c7687490-7668   5686 AAAAAAAGAAA--AAGAAATAATGATTAGTGGCCCGATGTCTCACGCCTA   5733
+                     |.||||..|||  || |.||||||.|.|           |||        
+69471174-6948   3461 ATAAAACTAAATCAA-ACATAATGGTCA-----------TCT--------   3490
+
+c7687490-7668   5734 TAATCCCAGCACTTTGGGAGGCCGAGGTGGGCAGATCAC-CTGAGGTCTG   5782
+                                 |||                   ||||| |||||..|..
+69471174-6948   3491 ------------TTT-------------------ATCACACTGAGTACGC   3509
+
+c7687490-7668   5783 GAGTTGGAGACCAGCCTGACAAAGATGGTGAAACCTCGTCTCTATTAAAA   5832
+                     |.|       |..||.||                  |||.|.|       
+69471174-6948   3510 GCG-------CGCGCGTG------------------CGTGTGT-------   3527
+
+c7687490-7668   5833 TATTAAAAAAATAGCCAGGCGTTGGCCGGGTACAGTGGCTCATGCCTGTA   5882
+                                       ||||     |.||   |||     ||..||| 
+69471174-6948   3528 ------------------GCGT-----GTGT---GTG-----TGTGTGT-   3545
+
+c7687490-7668   5883 ATCCCAGCACTTTGGGAGGCCGAGGTGGGTGGATCACCTGAG-GTCAGGA   5931
+                              .|.||.|.|     .|||.|||       ||.| ||   |.
+69471174-6948   3546 ---------GTGTGTGTG-----TGTGTGTG-------TGTGTGT---GT   3571
+
+c7687490-7668   5932 GTTCAACACCAGCCTGGCCAACATGGTGAAACCCCATCTCTACTAAAAAT   5981
+                     ||                       ||||                     
+69471174-6948   3572 GT-----------------------GTGA---------------------   3577
+
+c7687490-7668   5982 ACAAAAATTAGCCGGGCGTAGTGGCGGGCGCCTGTAATCCCAGCTACTTG   6031
+                                    |.|| |||.||.||.|.||.|        ||||  
+69471174-6948   3578 ---------------GTGT-GTGTCGAGCTCATGCA--------TACT--   3601
+
+c7687490-7668   6032 GGAGGC-TTAGGCAGGAGAATCGCTTGAACCTGGGAGGCGGAGGTTGTAG   6080
+                          | ||||                  |.||.|.|.|.|||||     
+69471174-6948   3602 -----CATTAG------------------CATGTGTGTCAGAGGT-----   3623
+
+c7687490-7668   6081 TGAGCCGAGATTGCACCATTGCACTCCAGCCTGGGTGACAAAAGCAAAAA   6130
+                                               ||||     ||||||         
+69471174-6948   3624 --------------------------CAGC-----TGACAA---------   3633
+
+c7687490-7668   6131 CTCCGTCTCAAAAAAAAAAGAATTAGCCAGGGGTAGTGGTGAACGCCTGT   6180
+                           ||.||.|.|     |||||       ||..|||           
+69471174-6948   3634 ------CTTAATAGA-----AATTA-------GTTTTGG-----------   3654
+
+c7687490-7668   6181 AGTCCCAGCTACTCAGGAGGCAGAGGCAGGAGAATCACTTGAACCCAGGA   6230
+                            |.|||||||                    .||||...|||||.
+69471174-6948   3655 -------GGTACTCAG--------------------TCTTGGTACCAGGT   3677
+
+c7687490-7668   6231 GGCAGAGGTTGCAGTGAGCCGAGATTGTCCCATTGCACTCCAGCCTAGGC   6280
+                     |                           ||.|||          || |||
+69471174-6948   3678 G---------------------------CCTATT----------CT-GGC   3689
+
+c7687490-7668   6281 GACA-AGAGCAA---AATTCC--ATGTCAAAAAAAAAAAAAAAAAAGGAA   6324
+                     .||| |||.|.|   |.||.|  ||.|..|.|                  
+69471174-6948   3690 CACACAGACCCACCTATTTTCTGATTTGTATA------------------   3721
+
+c7687490-7668   6325 AGAAAAAAAATAACGATT---AGAAAGGAAGAAAT--------AAAACAC   6363
+                                |||.|||   ||           |        .||.|..
+69471174-6948   3722 -----------AACTATTTTGAG-----------TTTTTCTACCAATCGT   3749
+
+c7687490-7668   6364 ATT-CACAGCCAGTATGATTCTATACATACATGTCCTAATGGGGCCAGGC   6412
+                     ||| |.||.|||||.||.|||||.||.|   |.|||.|        ||.|
+69471174-6948   3750 ATTCCTCACCCAGTGTGTTTCTAAACGT---TTTCCAA--------AGCC   3788
+
+c7687490-7668   6413 GTGGTGGCTCATGCCTGTAATCCTAGCACTTTTAGGAGGCTGAGGCAGGT   6462
+                     |||                          |||||.|.|.|||        
+69471174-6948   3789 GTG--------------------------TTTTATGTGTCTG--------   3804
+
+c7687490-7668   6463 GGCTTCCCTGGGACCAGCCTGGCCAACATGGTGAAACC--CCAACTCTAA   6510
+                        |||||   .|||||..||       |.||||...|  |...|||.| 
+69471174-6948   3805 ---TTCCC---CACCAGTGTG-------TTGTGATTTCTTCTTGCTCCA-   3840
+
+c7687490-7668   6511 TAAAAATACAAAAAATCAGCCAGGCGTGGTGACGGGCACCTCTAATCCCA   6560
+                                     ||.||             ||.|    ||||    
+69471174-6948   3841 ----------------CACCC-------------GGAA----TAAT----   3853
+
+c7687490-7668   6561 GCTACTCAGGAGGCTGAGGCAGGAGAATTGCTTGGACCTGGGAGGCAGAG   6610
+                                 |||||  ||||||.|.|..|||    ||..||||    
+69471174-6948   3854 ------------GCTGA--CAGGAGCAGTTTTTG----TGCAAGGC----   3881
+
+c7687490-7668   6611 GT--TGCAGTGAGCCGAGATCGCGCTATTGCACTCCAG-CCTGG----GC   6653
+                      |  |||.||   |||.|.||..|..|.||||| |.|| ..|||    ||
+69471174-6948   3882 -TCCTGCTGT---CCGTGTTCTAGGAACTGCAC-CTAGATGTGGTTTTGC   3926
+
+c7687490-7668   6654 AACAAGAGTGAAACTCCGGCAGGGTGTGGTGGCTTACGCCTGTAATCCCA   6703
+                         .||||||           |.||| |||..|||    .||.||.|||
+69471174-6948   3927 ----TGAGTGA-----------GATGT-GTGCTTTA----AGTGATACCA   3956
+
+c7687490-7668   6704 G-CACTTCGGGAGGCTGAGGCAGGCCGATCACCTGAGGTCAGGAGTTT--   6750
+                     | |||      ||.||               .||.|..|      |||  
+69471174-6948   3957 GACAC------AGCCT---------------TCTTATTT------TTTCT   3979
+
+c7687490-7668   6751 --GAGACCAACCTAACAT---GGT----------------GAAACCCCGT   6779
+                       || ||||||  ||.||   |||                .|..||||.|
+69471174-6948   3980 TAGA-ACCAAC--AATATATCGGTCCTTGGCCCCCACCCCCATGCCCCTT   4026
+
+c7687490-7668   6780 CTCTACTAAAAATACAAGAATTAGCTGGGTGTAGTGGTGGGCGCCTGTAA   6829
+                     .|.|.|            |||  |||||||||               |.|
+69471174-6948   4027 TTTTCC------------AAT--GCTGGGTGT---------------TGA   4047
+
+c7687490-7668   6830 TCCCAGCTACTTGGGAGGCTGAGACAGAAGAATTGCTTGAACCCAGGAGG   6879
+                     .|||         ||||.||.|||||.||.|    |..||||.|      
+69471174-6948   4048 ACCC---------GGAGCCTTAGACATAACA----CACGAACTC------   4078
+
+c7687490-7668   6880 TGGAGGTTGCAG-TGAGCTGAGATCATGCCATTGCACACCACGCCGGGCA   6928
+                            ||||| ||||||                  |||..|||     
+69471174-6948   4079 -------TGCAGCTGAGCT------------------ACCCTGCC-----   4098
+
+c7687490-7668   6929 ACAGAGCGAGATTCCGTCTCAAAAAAAAAAAAAAAGAGTGAAACTCTAT-   6977
+                         |||     ||||                |||||.|     |.||| 
+69471174-6948   4099 ----AGC-----TCCG----------------AAAGATT-----TGTATA   4118
+
+c7687490-7668   6978 CTCAAAAAAAAAAAAAAGTCCTAATGGAAAATCCATAAAAAGCTACCAAA   7027
+                     ||             ||||.|| |||.||.||                  
+69471174-6948   4119 CT-------------AAGTTCT-ATGAAACAT------------------   4136
+
+c7687490-7668   7028 ACTAATAAATAAATATAGCAGG--GTTGCAGGTTA--CAGGGCAA-----   7068
+                                    ||  |||  |||     |||  |||||.||     
+69471174-6948   4137 ---------------TA--AGGTCGTT-----TTATTCAGGGTAAGGTGT   4164
+
+c7687490-7668   7069 ----TATAGTTATCCCTCTATCTGTAGGGG-------CT----TGGTTCT   7103
+                         |.|.|.| |||||          |||       ||    ||||..|
+69471174-6948   4165 GGCTTCTGGCT-TCCCT----------GGGTCCAGTCCTTTGATGGTGGT   4203
+
+c7687490-7668   7104 GGG----ACTCCTCACACACCAAACCCACAGATGTCTAAGTCCCATATAT   7149
+                     |||    |||..||                         ||.||||    
+69471174-6948   4204 GGGTAGTACTGTTC-------------------------GTTCCAT----   4224
+
+c7687490-7668   7150 AAGACGGTATAGTATTTGGATTTA----------ACCTACACA-------   7182
+                        .|.||.|.|..|||.||||.|          ||||...||       
+69471174-6948   4225 ---TCCGTTTGGGGTTTTGATTGACAAGCCTTGCACCTTTCCAACTGTTC   4271
+
+c7687490-7668   7183 TATCCTC-----CC----ATATAGTTTAAATTATCTCTAGATT-ACTTAC   7222
+                     || ||||     ||    |||.||..||||        ||||| .|||.|
+69471174-6948   4272 TA-CCTCAAGAGCCAAAGATAAAGGGTAAA--------AGATTCCCTTCC   4312
+
+c7687490-7668   7223 ATTACCCCCATACAATGAAAATGCTAAT-GTA-CATGCAAGTATGTATGT   7270
+                     .|||.|||             ||..||| |.| |.|||            
+69471174-6948   4313 CTTATCCC-------------TGTCAATAGCAGCCTGC------------   4337
+
+c7687490-7668   7271 AAGTACTTGTACTATATTGTTTAGGGAATCACTGGACATATAGGCCTTCA   7320
+                                |||..||..|.|||  ||||...||.|| .||.||    
+69471174-6948   4338 -----------CTAGCTTCCTCAGG--ATCAAATGAGAT-GAGCCC----   4369
+
+c7687490-7668   7321 AGACTGATACCAGCA---GCCACTGTTAAGATTCTGGTC----AGGCCTG   7363
+                        ||||.|..||||   .||.|||          ||.|    |||||.|
+69471174-6948   4370 ---CTGAGAAGAGCAAGGCCCGCTG----------GGCCTGGAAGGCCAG   4406
+
+c7687490-7668   7364 CCCCTGTTTGGGGT-CTCAGTTGA---TCTC------ATTGCCTTCCCAC   7403
+                     |||..|||    || ||||    |   ||||      ||||||||   .|
+69471174-6948   4407 CCCTGGTT----GTACTCA----AACCTCTCGAGTCTATTGCCTT---TC   4445
+
+c7687490-7668   7404 CCAGCCAAGGGCACCTGCATTTCTCTTGGCTCCCTGGC-CATTTGGAAGG   7452
+                     ||||||||         ||||| ||||         .| ||         
+69471174-6948   4446 CCAGCCAA---------CATTT-TCTT---------ACACA---------   4467
+
+c7687490-7668   7453 CCTAGTTCAGCCTGGCACATTTGTATCCTG---GCCCACTGATGCTGGTA   7499
+                          |.||||||     .|.||.||.|||   .||..||||| |||||.
+69471174-6948   4468 -----TCCAGCCT-----CTGTGGATACTGTGACCCTCCTGAT-CTGGTT   4506
+
+c7687490-7668   7500 CCCCTGGGAAGGT-----------CCTGCTCTGAA--AAACACGGAGATT   7536
+                     |...||..|||.|           .|||.|||.||  ||||||.||.|..
+69471174-6948   4507 CTTGTGAAAAGTTTCATATTGGCAACTGTTCTTAAGGAAACACTGAAAAC   4556
+
+c7687490-7668   7537 TTAGTTGCTACTGAAGATTTGAGAGATAAAGACAGGGAGACC------TG   7580
+                     .||.||.|||||.|.||..||..|||||.|| ||||.|||||      ||
+69471174-6948   4557 CTAATTACTACTAACGACCTGGAAGATAGAG-CAGGAAGACCTCCTATTG   4605
+
+c7687490-7668   7581 TC--TGTAGACCTGTGTCCCTCCAAGTGGGATTGAGACTTTGGGCCCCCC   7628
+                     ||  |||.|  ||.|||  ||||||    ||.||||||.||||| ||.||
+69471174-6948   4606 TCAGTGTGG--CTATGT--CTCCAA----GACTGAGACATTGGG-CCGCC   4646
+
+c7687490-7668   7629 ATTTCAGGACA-----------------GCAC-------------CTC-C   7647
+                     ||..|||  ||                 ||||             |.| |
+69471174-6948   4647 ATCCCAG--CATGTGCGCGCGCGCGCGCGCACACACACACACACACACAC   4694
+
+c7687490-7668   7648 TGGCCTGTTGACT---GAATAGATCCCTGA-AGGAGGTGTACTTGCATTA   7693
+                     .|   |.||.|||   .||.||.|||.||| ||  ||||.|||.||||||
+69471174-6948   4695 AG---TATTCACTAAGCAAGAGTTCCTTGACAG--GGTGAACTGGCATTA   4739
+
+c7687490-7668   7694 ATGGAGTGGGGGTGGGAGCAGTACCACAGATCCGCACTAACAATCACACA   7743
+                     |.|| ||.|.|||     .||..|||||||  .|||||            
+69471174-6948   4740 ACGG-GTAGTGGT-----TAGCGCCACAGA--AGCACT------------   4769
+
+c7687490-7668   7744 GTTCTCTCTAGAATAATAATATAGAACAAGTGAAATAGAACAATTGCAGA   7793
+                     |.|..|||              |||||||.|||..| |..||  |.|..|
+69471174-6948   4770 GCTAGCTC--------------AGAACAAATGAGGT-GCTCA--TACCCA   4802
+
+c7687490-7668   7794 AAGAGCTAACCTTTGTTGAGCTCTTAC-TGTGTGCCCAGCACTTTCCTCA   7842
+                     .||.||          ||||||||||| ||.||                 
+69471174-6948   4803 CAGGGC----------TGAGCTCTTACATGAGT-----------------   4825
+
+c7687490-7668   7843 ACTCTACATTTCCCATAATACACAGAGTACTAGGTAGGCCAGGCTTGGTG   7892
+                                             |.||||| |.|.|||..||   ||||
+69471174-6948   4826 ------------------------GTGTACT-GTTGGGCGTGG---GGTG   4847
+
+c7687490-7668   7893 GCTCACGCCTGTAATCCCAGCACTTTAGGAGGCCAAGGGGGGTGGATCAC   7942
+                     |     |.|||.|  |||||          |||                 
+69471174-6948   4848 G-----GGCTGGA--CCCAG----------GGC-----------------   4863
+
+c7687490-7668   7943 CTGAGGTCGGGAGTTCA-AGACCAGC-CTGACCAACATGGTGAAACCCCG   7990
+                                  |||| |||..||| |.|.||||   ||..|||     
+69471174-6948   4864 -------------TTCACAGATGAGCTCCGCCCAA---GGCCAAA-----   4892
+
+c7687490-7668   7991 TCTCTACTAGAAGTACAAAATTAGCCAGGTGTGGTGGCACATGCTTGTAG   8040
+                     ||||          |.|||||.| ..||||       ||.|.|   |||.
+69471174-6948   4893 TCTC----------AAAAAATGA-AAAGGT-------CAAAAG---GTAA   4921
+
+c7687490-7668   8041 TCCTAGCTACTCAGCAGGCTGAGGCAGGAGAATCATTTGAATCCGGGAGG   8090
+                     .|||     .||||                          ||        
+69471174-6948   4922 CCCT-----TTCAG--------------------------AT--------   4932
+
+c7687490-7668   8091 AGGTTGCAGTAAGCGGAGATAGTGCCACTGTACTCCAGCCTGGGCAATAA   8140
+                            ||..|.||||||||                             
+69471174-6948   4933 -------AGATACCGGAGATA-----------------------------   4946
+
+c7687490-7668   8141 GAGCTGAGACTCCGTCTCAAAATAAAATAAAATAAAATAAAATAAAATAA   8190
+                         |||.|.|           ||.|| ||||||..||  |||.||||..
+69471174-6948   4947 ----TGATATT-----------TACAA-AAAATATGAT--AATTAAATGC   4978
+
+c7687490-7668   8191 AATAAAATAAAAAAAGAAAAGAGCCTGCCATTAAAGGAGCTGTTTGGTAG   8240
+                     .|.|...|.||..|.|||     .|||      |||.||||         
+69471174-6948   4979 TACAGTTTTAATTATGAA-----TCTG------AAGCAGCT---------   5008
+
+c7687490-7668   8241 GGGATGTTTTGTCAGTGCAAACAACAGAAAAGTGGGCTGGGCACAGTGGT   8290
+                                                         |||||         
+69471174-6948   5009 ------------------------------------CTGGG---------   5013
+
+c7687490-7668   8291 TCATGCCTGTAATCCCAGCACTTTGGGAGGCCAAGGCGGGCGGATCACCT   8340
+                     || |.||||       |.|.||||      |||.|||..||    |||||
+69471174-6948   5014 TC-TCCCTG-------ACCCCTTT------CCAGGGCCAGC----CACCT   5045
+
+c7687490-7668   8341 ---------GAAGTTGGGAGTTCAAGACCAGCCTGACCAATATGGAGAA-   8380
+                              ||.||.|||                  .|.||||    || 
+69471174-6948   5046 CATTACTCAGATGTAGGG------------------GCTATAT----AAT   5073
+
+c7687490-7668   8381 ACCCCGTCTCTACTAAAAATACAAAATTAGCCGGGCGCAGTGGCGCATGC   8430
+                     ||||.|||    ||            ||                ||.|.|
+69471174-6948   5074 ACCCAGTC----CT------------TT----------------GCTTTC   5091
+
+c7687490-7668   8431 CTGTAATCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCT   8480
+                     .|       ||.|||        ||||                       
+69471174-6948   5092 TT-------CATCTA--------GCTG-----------------------   5103
+
+c7687490-7668   8481 GGGAGGCAGAGGTTGCGGTGAGCCGAGATCGCACCATTGCACTCCAGCCT   8530
+                                                        ||||||         
+69471174-6948   5104 -----------------------------------ATTGCA---------   5109
+
+c7687490-7668   8531 GGACGAGAGCAAAACTCTGTCTCAAAAAAAAAAAAAAACAGAAAAG--TG   8578
+                          ||||   ||||.||.||                   ||.||  ||
+69471174-6948   5110 -----AGAG---AACTGTGCCT-------------------AAGAGCCTG   5132
+
+c7687490-7668   8579 TAACAAACACTTACAGTAGGCATGTTTCTTAGCAAATCTGATGACAAATT   8628
+                     |.||  .||||                      |.||    ||     ||
+69471174-6948   5133 TGAC--GCACT----------------------AGAT----TG-----TT   5149
+
+c7687490-7668   8629 TGGCATAAAGAAAGAGAGCATCCCTGAAAAAAAAAAAAAGAAAAAGAAAG   8678
+                     |||          |.|..||||..|                  ||.||||
+69471174-6948   5150 TGG----------GTGGCCATCTTT------------------AATAAAG   5171
+
+c7687490-7668   8679 AGAGCAT---CCTGCC--TGGGCAACATAGTGAAACCCTGCCTCTACAAA   8723
+                     || .|||   ||||||  .|||| |.|| |||  |||.|           
+69471174-6948   5172 AG-TCATTCACCTGCCCAGGGGC-AGAT-GTG--ACCAT-----------   5205
+
+c7687490-7668   8724 AAAACTCAAAAATTGGCCGGGTGCAGTGGCTCACACCTGTAAT--CCCAG   8771
+                                      ||.|           |||..||.|||  |||| 
+69471174-6948   5206 -----------------CGAG-----------ACAGATGAAATAGCCCA-   5226
+
+c7687490-7668   8772 CACTTTGGGAGTCGGAGGCGGGAGGATCACCTGAGGTCAGGAGTTCGAAA   8821
+                        |.|||.|                       ||||      |||    
+69471174-6948   5227 ---TATGGAA-----------------------AGGT------TTC----   5240
+
+c7687490-7668   8822 CCAGCCTGGCCAACATGGCAAAACCCCATCTCTACTAAAAATACAAAAAA   8871
+                                      .||||       ||||  ||||.|.|..|.||.
+69471174-6948   5241 -----------------TCAAA-------CTCT--TAAATAAATGAGAAC   5264
+
+c7687490-7668   8872 TTAATCAGGCGCATTGGTGGGCGCCTGTAATCCCAGCTACTCAGGAAGTT   8921
+                     ||.||                    |||       .||||          
+69471174-6948   5265 TTGAT--------------------TGT-------TCTAC----------   5277
+
+c7687490-7668   8922 GAGGCAAGAGGATCGCTTGAATCTGGGAGGTGGAGGTTACAGTGAGTCGA   8971
+                      |..||||.|.||...||.|||       ||.|||.|||.|||.|||   
+69471174-6948   5278 -ATACAAGTGAATATATTAAAT-------GTTGAGATTATAGTCAGT---   5316
+
+c7687490-7668   8972 GATCACACCACTGCACTCTAGCCTGGGTGACAGGGCGAGACTCCGTCTCC   9021
+                      ||.|    ||.|.|.| ||..|||                         
+69471174-6948   5317 -ATTA----ACAGTAAT-TATTCTG-------------------------   5335
+
+c7687490-7668   9022 AAAAAAAAAAAGAAAAAGAAAAAGACTAAAAAATTAGCCAGGCAGGCCTC   9071
+                                                   ||||       ||..||||.
+69471174-6948   5336 ------------------------------AAAT-------GCTTGCCTT   5348
+
+c7687490-7668   9072 TGTGGTCCCAGCTACTTGGGAGGCTG--AGGCAGGAGAATCACTGAGCCC   9119
+                     |                     ||||  ||..||||.|           |
+69471174-6948   5349 T---------------------GCTGTTAGAAAGGAAA-----------C   5366
+
+c7687490-7668   9120 AGGA-GTCCGAGGCTGTAGTGAGCCATGATTGCACCACTGTACCCTAGCT   9168
+                     |.|| ||||.|||..||.|   |||  ||       |||           
+69471174-6948   5367 ATGATGTCCCAGGGGGTTG---GCC--GA-------ACT-----------   5393
+
+c7687490-7668   9169 TGGGCAACAAAGCAAGACCCTGCCTCAAAAGAAAAAAGAAAGAAAGAAAG   9218
+                                 |||..|||                            ||
+69471174-6948   5394 ------------CAATCCCC----------------------------AG   5403
+
+c7687490-7668   9219 AACATGGCGGGCCAGGCAC--------AGTGGCTCACACCTGTAATCCCA   9260
+                     |||            .|||        |||          |||.|||   
+69471174-6948   5404 AAC------------CCACTTCTTATAAGT----------TGTCATC---   5428
+
+c7687490-7668   9261 GCGCTTTGAGAGGCCGAGGCAGGTGGATCACAAGGTCAGGAGTTCCACAC   9310
+                           |||    ||                            ||||.||
+69471174-6948   5429 ------TGA----CC----------------------------TCCATAC   5440
+
+c7687490-7668   9311 -CA-GCCTGGCCAACATGGTGAAACCCTGTCTCTACTAAAAAT-----AC   9353
+                      || |.||.|.||            |||.|         ||||     ||
+69471174-6948   5441 GCATGTCTTGGCA------------CCTTT---------AAATAAGGCAC   5469
+
+c7687490-7668   9354 AAAAAATCAGCCAGGCATGGTGGCAGGGGCCTGTAATCCCAGCTACTCGG   9403
+                     ||.||||.||..|   |||            |.|||              
+69471174-6948   5470 AATAAATAAGTAA---ATG------------TCTAA--------------   5490
+
+c7687490-7668   9404 GAGGCTGAGGCAGGAGAATTGCTTGAAACCAGAAGGCAGAGGTTGCAGTG   9453
+                         .|.||| |.||.|||.|||             |.|.||||  ||| 
+69471174-6948   5491 ----GTAAGG-AAGATAATAGCT-------------CCGTGGTT--AGT-   5519
+
+c7687490-7668   9454 AGCCTAGACTGCACCACTGCACTCCAGCCTGGGCGAAAAGAGCCAAACTC   9503
+                                                                       
+69471174-6948   5520 --------------------------------------------------   5519
+
+c7687490-7668   9504 CATCTCAAAAAACAAACAAAAAAACAAAACAAAAGAAAACATGGCAAAGC   9553
+                                                |||||.||||||           
+69471174-6948   5520 ---------------------------AACAAGAGAAAA-----------   5531
+
+c7687490-7668   9554 CTTTGAAAGCTTGTCTGGGAGAAGGTGCGATGATA-GTTGCATAACTTCG   9602
+                        |||          |.||||..||   ||.||| |  ||.||||.|| 
+69471174-6948   5532 ---TGA----------GTGAGAGAGT---ATCATACG--GCTTAACCTC-   5562
+
+c7687490-7668   9603 TGCAAGA-----TGCTGGTCCACACAGGGGCTGCCCCTTGCT----CTTT   9643
+                     ||.|.||     ||.||||       |.|||||      |||    .|| 
+69471174-6948   5563 TGAAGGAGGTGGTGGTGGT-------GTGGCTG------GCTGGAGATT-   5598
+
+c7687490-7668   9644 CTCGCTCTCTTAACCTCTCATATAACAGGCTTG-TGTGTTATTCACATTT   9692
+                                                ||||.| ||||            
+69471174-6948   5599 ---------------------------GGCTGGCTGTG------------   5609
+
+c7687490-7668   9693 ATTGAGCCCAAGCAGGTGCAAGGCATTGTGATCTAATACTTTGGTCAGCA   9742
+                     |.||...||.||.||.|  |.|||||                        
+69471174-6948   5610 ACTGTCTCCGAGGAGCT--ATGGCAT------------------------   5633
+
+c7687490-7668   9743 AGACAACAAGATAGATCACTGCCCTGCCCTTAGGAAGTGTATATGCTATT   9792
+                          ||||||||                  ||||||.|..|| .||..|
+69471174-6948   5634 -----ACAAGATA------------------AGGAAGAGCCTA-CCTCAT   5659
+
+c7687490-7668   9793 AG---AGGAAACAGATAAAATAAACAAGGAAAAGTATCAGACAATGTAAG   9839
+                     ||   |||     ||.||.|.||||                         
+69471174-6948   5660 AGCCTAGG-----GAGAACAGAAAC-------------------------   5679
+
+c7687490-7668   9840 TGCTATGAGAATGCAAATGAGGTGATGTGAATTAAAATAGGATGACTTAA   9889
+                                              |||||.||                 
+69471174-6948   5680 -------------------------TGTGACTT-----------------   5687
+
+c7687490-7668   9890 AGTCTGCACGGGAAGGAGCCTACCCCCATGTTCCTGGCTAGCCAAGG-AA   9938
+                                                 ||.||.||  |||   ||| ||
+69471174-6948   5688 ----------------------------TGCTCTTG--TAG---AGGTAA   5704
+
+c7687490-7668   9939 CCAC-CAGTTGATTAGCAG--AGAAGGGCAGCCAGT-CTAGCTAGAGCTT   9984
+                     |||| |   |||||  |||  ||.| ||.||..||| ||..|||||||..
+69471174-6948   5705 CCACAC---TGATT--CAGCCAGGA-GGAAGTAAGTGCTCCCTAGAGCCC   5748
+
+c7687490-7668   9985 TTGGGGAAG-AGGGAGTGGTTGTTAAGAGATGAGATTAAAGAAGCCGAGA  10033
+                     ||||||||| |||.|||.|                           ||.|
+69471174-6948   5749 TTGGGGAAGAAGGCAGTAG---------------------------GAAA   5771
+
+c7687490-7668  10034 CGGGC-CATTCGTGAGGGGTTTGTAATGCAGGGCTGAGGA-GTGTCCGAA  10081
+                     |..|| .|.||.|.|||..|||||||.||   ||||.||| .|||||..|
+69471174-6948   5772 CCTGCTGAATCTTCAGGAATTTGTAAGGC---GCTGGGGACCTGTCCCTA   5818
+
+c7687490-7668  10082 GAGAATGGGCAGGTGAGCGGTGAGACAGTT----GTTCTTCCAGAAGCTT  10127
+                     |    .||||||.|||     ||.||.|.|    ||.|||..|||   ||
+69471174-6948   5819 G----GGGGCAGATGA-----GACACTGATGGGCGTACTTAGAGA---TT   5856
+
+c7687490-7668  10128 TGCAGTGAA-AGGAATCAAAGAAATGGAGCCGTGTATCAGGTGG-GGAAG  10175
+                     |||..|||| .||..|..||| ||||||||.||||.|.|..||| |||  
+69471174-6948   5857 TGCCATGAAGTGGGTTTGAAG-AATGGAGCTGTGTGTGAAATGGTGGA--   5903
+
+c7687490-7668  10176 GGTGGGGGCCAAGGGGGTGTCCTTCCCCA----------TACAGAGAT--  10213
+                       ||||||    |||||.||||.||||||          .|.||||||  
+69471174-6948   5904 --TGGGGG----GGGGGAGTCCCTCCCCAGAGGGAAGGGAAGAGAGATGA   5947
+
+c7687490-7668  10214 --TGCAGGCTG-AGAATGACTATATCCTTGTTAACAGGAGG---TGGG--  10255
+                       ||.|||.|| |||             |||    |||.||   ||||  
+69471174-6948   5948 GATGTAGGGTGCAGA-------------TGT----AGGGGGGCTTGGGGC   5980
+
+c7687490-7668  10256 -AGCAGGGCACGGTAGCTCAC-----ACCTGTAATCTTGGCACTTTAGGA  10299
+                      ||.|       |||.|||.|     ||||||  ||      |||   ||
+69471174-6948   5981 TAGAA-------GTACCTCCCTGATTACCTGT--TC------CTT---GA   6012
+
+c7687490-7668  10300 GGCTGAG-GCGGGCCGATCACCTGAAGTAAGGAGTTCGAGACCAGCCTGG  10348
+                     .||.|.| |.||..|||..|.||||   .||||          ||||.||
+69471174-6948   6013 AGCAGTGTGTGGTTCGAGAAGCTGA---TAGGA----------AGCCAGG   6049
+
+c7687490-7668  10349 CCAA--CATGCAAAGC--CCTGTCTCTACTAAAAATACAAAA---ATTAG  10391
+                     ||||  |.||   |||  ||||           ||||.||.|   |..||
+69471174-6948   6050 CCAAGGCTTG---AGCAGCCTG-----------AATAAAAGACGGAAGAG   6085
+
+c7687490-7668  10392 CTGGGTGTGGTGGTACTCGCCTGTAATCCCAGCTACTCGGGAGACTGAGG  10441
+                     |||              |.||    ||.||.|||.|||.|||        
+69471174-6948   6086 CTG--------------CCCC----ATTCCTGCTTCTCTGGA--------   6109
+
+c7687490-7668  10442 CAGGAGAATGG----------------CTTGAACCCGG-----------A  10464
+                           |||||                ||||...||.|           |
+69471174-6948   6110 ------AATGGTGTCCCTCACGGCCATCTTGGGTCCTGACTTCTTCTCAA   6153
+
+c7687490-7668  10465 AGGTAGAGGTTGCAGTGAGCTGA-------GAT-CATGCCACTGTGC---  10503
+                     ||   |||..||      ||.||       ||| |.||..|||.|||   
+69471174-6948   6154 AG---GAGCCTG------GCCGACTTCTTGGATACTTGTAACTTTGCGCT   6194
+
+c7687490-7668  10504 --TCCAGCCT------AGGTGACAGAGAGA--GACTC--CATCTCAAAAA  10541
+                       .|||.|||      ||.|..|.||.|.|  |||||  .|.|||||||.
+69471174-6948   6195 TTCCCACCCTCGCATAAGTTTCCTGAAATAATGACTCTGAAACTCAAAAT   6244
+
+c7687490-7668  10542 AAAAAAAAAAATACAGGAAGGGAGTTGGGAATAGGGTGCACATTTAGGAA  10591
+                     |.|...|.|||.||                .|.||.||      |||   
+69471174-6948   6245 ATATTTACAAACAC----------------CTCGGCTG------TAG---   6269
+
+c7687490-7668  10592 GTCTTGGGGATTTAGTGGTGGGAAGGTTGGAAGTCCCTCTCTGA-TTG--  10638
+                       |||.||   ||.||                     ||||||| |||  
+69471174-6948   6270 --CTTTGG---TTTGT---------------------TCTCTGACTTGCT   6293
+
+c7687490-7668  10639 ----------------TCTTTTCCTCAAAGAAGTGCATGGCTGGTGAGGG  10672
+                                     ||||.|.||.|...||||.| ||.|..||    |
+69471174-6948   6294 TATAACTTAATATCCCTCTTATTCTAACCTAAGTTC-TGCCACGT----G   6338
+
+c7687490-7668  10673 GTGGG----------GCAG-----GAGTGCTTGGGT------TGT-----  10696
+                     ||.||          .|||     |   ||||..||      |||     
+69471174-6948   6339 GTTGGTTACCTCTGCTCAGCCCCCG---GCTTCTGTCCTCCATGTTCCTG   6385
+
+c7687490-7668  10697 GGTGAA-------ACATTGGAAGAGAGAATGTGAAGCAGCCATTCTTTTC  10739
+                     ||.|||       ||.||      .|||||            ||..||||
+69471174-6948   6386 GGGGAATCCCTACACTTT------CAGAAT------------TTAATTTC   6417
+
+c7687490-7668  10740 CTGCTCCACAGGAAG-CCGAGCT--------GTCTCAGACACT-------  10773
+                     |    |.||.|||.| ||.|.||        .|||   ||.||       
+69471174-6948   6418 C----CTACTGGATGTCCCACCTTCTTTTTATTCT---ACCCTTTCCTAT   6460
+
+c7687490-7668  10774 --GGCATGGTGTTGGGGGAGGGGGTTCCTTCTCTGCAGGCCCAGGTGACC  10821
+                       |.|||           |||||.||..||.|.||.|             
+69471174-6948   6461 AAGCCAT-----------AGGGGTTTGTTTGTTTGTA-------------   6486
+
+c7687490-7668  10822 CAGGGTTGGAAGTGTC---TCATGCTGGATCCCCACTTTTCCTCTTGCAG  10868
+                      .|..||..||.||.|   |.||||   |||            |.|.|||
+69471174-6948   6487 -TGTTTTTTAATTGACAAGTTATGC---ATC------------CATACAG   6520
+
+c7687490-7668  10869 CAGCCAGACTGCCTTC------CGGGTCACTGCCATGGAGGAGCCGCAGT  10912
+                     .|  ||.|.|..||||      |.|.|.|||||||||||||||.|.||||
+69471174-6948   6521 TA--CACAATCTCTTCTCTCTACAGATGACTGCCATGGAGGAGTCACAGT   6568
+
+c7687490-7668  10913 CAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTA  10962
+                     |.|||...|||.||||||.|||||||||.|||||.||||||||||.|.||
+69471174-6948   6569 CGGATATCAGCCTCGAGCTCCCTCTGAGCCAGGAGACATTTTCAGGCTTA   6618
+
+c7687490-7668  10963 TGGAAACTGTGAGTGGATCCATTGGAAGGGC-----AG-----GCCCACC  11002
+                     |||||||||||||||||||..||.|  ||||     ||     .|||.||
+69471174-6948   6619 TGGAAACTGTGAGTGGATCTTTTTG--GGGCCCTTAAGATACATCCCGCC   6666
+
+c7687490-7668  11003 ACCC------CCACCCC--------------------------------A  11014
+                     |..|      ||.||||                                |
+69471174-6948   6667 ATACCTGTATCCTCCCCTTGCCTGAGAGAAACAAAAACAGTAGTGTTCAA   6716
+
+c7687490-7668  11015 AC------------------------------------------------  11016
+                     ||                                                
+69471174-6948   6717 ACATGGTATGGTGTTGGGTGTCTGTAAATCCTGCGGGGCGGGGTGGCGGG   6766
+
+c7687490-7668  11017 ---------------------CCCAG--------------------CCCC  11025
+                                          |.|||                    |..|
+69471174-6948   6767 GGGGGGGGGGGACTGCAGGGTCTCAGAAGTTTGAGGTCATCATTGACTAC   6816
+
+c7687490-7668  11026 CTAGCA-----GAGACCTG--TGGG--AAGCGA-----------------  11049
+                     .|||||     |||.||.|  ||||  |||.||                 
+69471174-6948   6817 ATAGCAAGTTGGAGGCCAGCCTGGGATAAGTGAGATTCTGTCTTCAAAAA   6866
+
+c7687490-7668  11050 --------AAATTCCATGGGACTGACTTTCTGCTCTTGTCTTTCAGACTT  11091
+                             ||||  || ||.|||.|||.|||||||||||.||.|||||||
+69471174-6948   6867 ATGGAAGGAAAT--CA-GGAACTAACTCTCTGCTCTTGTTTTCCAGACTT   6913
+
+c7687490-7668  11092 CCT---GAAAACAACGTTCTGGTAAGGACAAGGGTTGGGCTG---GGGAC  11135
+                     |||   |||.|.|   |.|||||||||.|.|     |.||.|   |||||
+69471174-6948   6914 CCTCCAGAAGATA---TCCTGGTAAGGCCCA-----GAGCAGAAAGGGAC   6955
+
+c7687490-7668  11136 CTGGAGGGCTGGGGACCTGGAGGGCTGGGGGGCTGGGGGGCTGAGGACCT  11185
+                     .|   |||||..||           ||..|||||||..|||||||.||..
+69471174-6948   6956 TT---GGGCTTTGG-----------TGTTGGGCTGGTAGGCTGAGAACAC   6991
+
+c7687490-7668  11186 GGTCCTCTGACTGCTCT--TTTCACCCATCTACAGTC--CCCCT---TGC  11228
+                     .|||  ||||..|.|||  |||..||||||.||||.|  |.|||   |||
+69471174-6948   6992 AGTC--CTGAGGGTTCTTCTTTGTCCCATCCACAGCCATCACCTCACTGC   7039
+
+c7687490-7668  11229 CGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAA  11278
+                                |||||.|||.||.|||||.|||   |.|||.||||..| 
+69471174-6948   7040 -----------ATGGACGATCTGTTGCTGCCCC---AGGATGTTGAGGA-   7074
+
+c7687490-7668  11279 TGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGC  11328
+                       |||...|||||.||||.|      ||||||.|.|.||.||.|||..||
+69471174-6948   7075 --GTTTTTTGAAGGCCCAAG------TGAAGCCCTCCGAGTGTCAGGAGC   7116
+
+c7687490-7668  11329 TGCTCCCCCCGTGGCCCCTG-CACC-AGCAGCTCCTACACCGGCGGCCCC  11376
+                     |.||.|..|...||.||||| |||| ||  .|.|||...||.|.||||||
+69471174-6948   7117 TCCTGCAGCACAGGACCCTGTCACCGAG--ACCCCTGGGCCAGTGGCCCC   7164
+
+c7687490-7668  11377 TGCACCAGCCCCCTCC-TGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAA  11425
+                     |||.|||| ||.|||| ||||||||||||||||.|||||||||.||.|||
+69471174-6948   7165 TGCCCCAG-CCACTCCATGGCCCCTGTCATCTTTTGTCCCTTCTCAAAAA   7213
+
+c7687490-7668  11426 ACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGAC  11475
+                     ||.||||||||||.|||.||.||||..|||||||||.||||.||||||||
+69471174-6948   7214 ACTTACCAGGGCAACTATGGCTTCCACCTGGGCTTCCTGCAGTCTGGGAC   7263
+
+c7687490-7668  11476 AGCCAAGTCTGTGACTTGCACGGTCAGT-TGCCCTGAGGGGCTGGCTTCC  11524
+                     ||||||||||||.|..||||||||.||| .||||.|.||.|.||.|||.|
+69471174-6948   7264 AGCCAAGTCTGTTATGTGCACGGTGAGTGGGCCCCGGGGAGTTGTCTTTC   7313
+
+c7687490-7668  11525 ATGAGAC--TTCAATGCCTGGCCGTATCCCCCTGCATTTCTTTTGTTTGG  11572
+                     .||.|||  ||||||||||               |.|||..|.|||.|.|
+69471174-6948   7314 GTGTGACCTTTCAATGCCT---------------CTTTTTCTCTGTCTAG   7348
+
+c7687490-7668  11573 AACTTT-GGGATTCCTCTTCACCCTTTGGCTTCCTG----TCAGTGTTTT  11617
+                     |  ||| |||.||||||||||.|||.|.|   .|||    ||||.|||  
+69471174-6948   7349 A--TTTGGGGGTTCCTCTTCAGCCTGTAG---ACTGTGCCTCAGAGTT--   7391
+
+c7687490-7668  11618 TTTATAGTTTACCCACTTAATGTGTGATCTCTGACTCCTGTCCCAAAGTT  11667
+                         ||||||                            ||.||      |
+69471174-6948   7392 ----TAGTTT----------------------------TGCCC------T   7403
+
+c7687490-7668  11668 GAATATTCCCCCCTTGAATTTGGGCTTTTATCCATCCCATCACACCCTCA  11717
+                     |||        ||||   |||.|.||.||.|||.|.|..|||.|..|||.
+69471174-6948   7404 GAA--------CCTT---TTTAGCCTCTTCTCCTTTCTCTCATATTCTCT   7442
+
+c7687490-7668  11718 GCATCTCTCCTGGGGATGCAGAACTTTTCTTTTTCTTCA---TCCACGTG  11764
+                     ||||||||||.|||||.|..||||   |||.||.|.|||   |||     
+69471174-6948   7443 GCATCTCTCCAGGGGACGTGGAAC---TCTCTTCCCTCACATTCC-----   7484
+
+c7687490-7668  11765 TATTCCTTGGCTTTTGAAAATAAGCTCCTGACCAGGCTTGGTGGCTCACA  11814
+                       ||.||||||||||||||||||.||.|||                    
+69471174-6948   7485 --TTTCTTGGCTTTTGAAAATAATCTTCTG--------------------   7512
+
+c7687490-7668  11815 CCTGCAATCCCAGCACTCTCAAAGAGGCCAAGGC---AGGC---------  11852
+                          ||.||.|||||      ||||||....||   ||||         
+69471174-6948   7513 -----AAGCCAAGCAC------AGAGGCGTGTGCTGTAGGCCCAGCTGCT   7551
+
+c7687490-7668  11853 --AGATCACCTGAGCCCAGGA--GTTCAAGACCAGCCTGGGTAACATGAT  11898
+                       ||| ||..|||| .|||||  |.|.|||.||||||||   |.||||  
+69471174-6948   7552 AGAGA-CAGTTGAG-GCAGGATTGCTTAAGGCCAGCCTG---AGCATG--   7594
+
+c7687490-7668  11899 GAA-----ACCTCGTCTCTACAAAAAAATACAAAAAATTAGCCAGGCATG  11943
+                     |||     |||.|.||||..|||||    |||||||  .||||   ||  
+69471174-6948   7595 GAAGTAAGACCCCTTCTCACCAAAA----ACAAAAA--CAGCC---CA--   7633
+
+c7687490-7668  11944 GTGGTG-----CACACCTATAGTCCCAGCCACTTAGGAGGCTGAGGTGGG  11988
+                     ||||.|     |||||||.|||..|||| ||||..||||||..|.|||||
+69471174-6948   7634 GTGGAGTGACACACACCTGTAGCTCCAG-CACTGGGGAGGCCAAAGTGGG   7682
+
+c7687490-7668  11989 --------AAGATCACTTGAGGCCA-----------GGAGATGGAGGCTG  12019
+                             |||.||    |||||||           ..|||  |||| ||
+69471174-6948   7683 AGGGACAAAAGTTC----GAGGCCATCTCTGACTACACAGA--GAGG-TG   7725
+
+c7687490-7668  12020 C-----------------AGTGAGCTGTGAT--CACACCACTGTG-----  12045
+                     |                 |||.||.||||.|  | ||.|.|||||     
+69471174-6948   7726 CCCTCTCAAAAAAAGAGAAGTCAGGTGTGTTGGC-CATCTCTGTGAGTTC   7774
+
+c7687490-7668  12046 --CTCCAGCCTG--------AGTGA----CAG---AGCAAG---------  12069
+                       ..||||||||        |||||    |||   |||.||         
+69471174-6948   7775 GAGGCCAGCCTGGTCTACAAAGTGAGTTCCAGGACAGCCAGGGCTACATA   7824
+
+c7687490-7668  12070 -----ACCCTATCTCAAAAAAAAAAAAA-------AAAAAGAAAAGCTCC  12107
+                          |||||.||||.|||||.|.|.||       ||.|||.||||.|||
+69471174-6948   7825 GAGAAACCCTGTCTCGAAAAACACAGAAAGGGAGGAAGAAGGAAAGGTCC   7874
+
+c7687490-7668  12108 TGAGGTGTAGACGCCAACTCTCTCTAGCTCGCT----------AGTGGGT  12147
+                            .||.|     |||||| |.|||.|||          |.||.| 
+69471174-6948   7875 -------CAGTC-----CTCTCT-TTGCTGGCTGCCCTCTGCCACTGCG-   7910
+
+c7687490-7668  12148 TGCAGG--------AGGTGCTT--ACGCATGTTTGTTTCTTTGCTGCCGT  12187
+                        |||        .|||||||  || .|||  ||||||.||..|.||  
+69471174-6948   7911 ---AGGGCGTCCAATGGTGCTTGGAC-AATG--TGTTTCATTAGTTCC--   7952
+
+c7687490-7668  12188 CTTCCA-GTTG---CTTTATCTGTTCA-----CTTGTGCCCTGACTTTCA  12228
+                        ||| .|||   |.|.||| ||| |     ||||| |||.||| .||.
+69471174-6948   7953 ---CCACCTTGACACCTGATC-GTT-ACTCGGCTTGT-CCCCGAC-CTCC   7995
+
+c7687490-7668  12229 ACTCTGTCTCCTTCCTCTTCCTACAGTACTCCCCTGCCCTCAACAAGATG  12278
+                     ..|||.||||||  ||||||   ||||||||.|||.|||||||.|||.|.
+69471174-6948   7996 GTTCTCTCTCCT--CTCTTC---CAGTACTCTCCTCCCCTCAATAAGCTA   8040
+
+c7687490-7668  12279 TTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCAC  12328
+                     ||.|||||.|||||.|||||.||||||||||||.|||||||.....||||
+69471174-6948   8041 TTCTGCCAGCTGGCGAAGACGTGCCCTGTGCAGTTGTGGGTCAGCGCCAC   8090
+
+c7687490-7668  12329 ACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCAC  12378
+                     |||.||..|.||.|.|||.||||||||||||||||||||||||.||||||
+69471174-6948   8091 ACCTCCAGCTGGGAGCCGTGTCCGCGCCATGGCCATCTACAAGAAGTCAC   8140
+
+c7687490-7668  12379 AGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCA  12428
+                     ||||||||||||||||.|||||.||||||||||||||||||||||||||.
+69471174-6948   8141 AGCACATGACGGAGGTCGTGAGACGCTGCCCCCACCATGAGCGCTGCTCC   8190
+
+c7687490-7668  12429 GATAGCGATGGTGAG---------CAGC---TGGGGCTGGAGAGACGACA  12466
+                     |||.|.||||||.||         |.||   |||||.|           |
+69471174-6948   8191 GATGGTGATGGTAAGCCCTCAACACCGCCTGTGGGGTT-----------A   8229
+
+c7687490-7668  12467 GGGCTGGTTG---CCCAGGGTCCCCAGGCCTCTGA-TTCCTCACTGATTG  12512
+                     ||.||||..|   ||||   ||.||.|||.||||| ||..||     |||
+69471174-6948   8230 GGACTGGCAGCCTCCCA---TCTCCCGGCTTCTGACTTATTC-----TTG   8271
+
+c7687490-7668  12513 CTCTTAGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTT  12562
+                     ||||||||.|||||.|||||.||||||||||||||.||||||||||||||
+69471174-6948   8272 CTCTTAGGCCTGGCTCCTCCCCAGCATCTTATCCGGGTGGAAGGAAATTT   8321
+
+c7687490-7668  12563 GCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGG  12612
+                     |..|...||||||.||||.|||||..|.||||||||.||.||.|||||||
+69471174-6948   8322 GTATCCCGAGTATCTGGAAGACAGGCAGACTTTTCGCCACAGCGTGGTGG   8371
+
+c7687490-7668  12613 TGCCCTATGAGCCGCCTGAGGTC-------------TGGTTTGCAACTGG  12649
+                     |.||.||||||||.||.||||||             |||||||     .|
+69471174-6948   8372 TACCTTATGAGCCACCCGAGGTCTGTAATTTTGTTTTGGTTTG-----TG   8416
+
+c7687490-7668  12650 GGTCTCTGGGAGGAGGGGTTAAGGGTGGTTGTCAGTGGCCCTCCAGGTGA  12699
+                     .||||..|.||                     ||||.| .||||||...|
+69471174-6948   8417 CGTCTTAGAGA---------------------CAGTTG-ACTCCAGCCTA   8444
+
+c7687490-7668  12700 GCAGT-AGGGGGGCTTTCT-----CCTGCTGCTTATTTGACCTCCCTATA  12743
+                     | |.| |.|..|.||||||     ||.|       |||| ||||      
+69471174-6948   8445 G-ACTGATGTTGACTTTCTAGCAACCCG-------TTTG-CCTC------   8479
+
+c7687490-7668  12744 ACCC-CATGAGATGTGCAAAGTAAATGGGTTTAACTATTGCACAGTTGAA  12792
+                     |||| |.|||   ||||              ||.||              
+69471174-6948   8480 ACCCTCCTGA---GTGC--------------TAGCT--------------   8498
+
+c7687490-7668  12793 AAAACTGAAGCTTACAGAGGCTAAGGGCCTCCCCTGCTTGGCTGGGCGCA  12842
+                            |.|||||.||..|| |||        ||||...||...||.||
+69471174-6948   8499 -------AGGCTTAGAGGTGC-AAG--------CTGCCGTGCCCAGCCCA   8532
+
+c7687490-7668  12843 GTGGCTCATGCCTGTAATCCCAGCA--CTTTGGGAGGCCAAGG-------  12883
+                     |.|.||    .||.|||   |||||  ||.||||||   ||||       
+69471174-6948   8533 GGGTCT----ACTTTAA---CAGCAGTCTCTGGGAG---AAGGGGCTTCC   8572
+
+c7687490-7668  12884 -----CAGGCGGATCACGAGGTTGGGAGATCGAGACCATCCTGGCTAA--  12926
+                          |||||             ||||.||.|||||       |||.|  
+69471174-6948   8573 CCATCCAGGC-------------GGGAAATAGAGAC-------GCTGAGT   8602
+
+c7687490-7668  12927 -CGGTGAAACCCCGTCTCTACTGAAAAATACAAAAAAAAATTAGCCGGGC  12975
+                      ||||         ||.||.|     .||.|.||..||            
+69471174-6948   8603 CCGGT---------TCCCTCC-----CATGCTAAGCAA------------   8626
+
+c7687490-7668  12976 GTGGTGCTGGGCACCTGTAGTCCCAGCTACTCGGGAGGCTGAGGAAGGAG  13025
+                        |||.|||||.|       |.|||||.|                  ||
+69471174-6948   8627 ---GTGTTGGGCCC-------CACAGCTCC------------------AG   8648
+
+c7687490-7668  13026 AATGGCGT---GAACCTGGGCGGTGGAGCTTGCAGTGAGCTGAGATCACG  13072
+                     .| ||.||   ||||     .||||||               |.|||   
+69471174-6948   8649 CA-GGTGTGCCGAAC-----AGGTGGA---------------ATATC---   8674
+
+c7687490-7668  13073 CC-ACTGCACTCCAGC-----CTG------------GGCGACAGAGCGAG  13104
+                     || |||   ||.||.|     |||            |||  .|.|||.||
+69471174-6948   8675 CCTACT---CTACAACTAAAACTGAAACTTATTAGAGGC--TATAGCCAG   8719
+
+c7687490-7668  13105 ATTCCATCTCAAAAAAAAAAAAAAAAGGCCTCCC--CTGCTTGCCACAGG  13152
+                        ||||                       ||||  |||||    .||||
+69471174-6948   8720 ---CCAT-----------------------TCCCGGCTGCT----GCAGG   8739
+
+c7687490-7668  13153 TCTCCCCAAG-----------GCGCACTGGCCTCATCTTGGGCCTGTGTT  13191
+                     ||.||...||           ||| |||    |||.||.|..|||||||.
+69471174-6948   8740 TCACCTGTAGTGAGGTAGGGAGCG-ACT----TCACCTGGATCCTGTGTC   8784
+
+c7687490-7668  13192 ATCTCCTAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTG  13241
+                     .||.||.|||..||||||||.|.||||||||||||||||||.||||||||
+69471174-6948   8785 TTCCCCCAGGCCGGCTCTGAGTATACCACCATCCACTACAAGTACATGTG   8834
+
+c7687490-7668  13242 TAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCA  13291
+                     |||.||.|||||||||||.|||||||||||..|.||.|||||.|||||||
+69471174-6948   8835 TAATAGCTCCTGCATGGGGGGCATGAACCGCCGACCTATCCTTACCATCA   8884
+
+c7687490-7668  13292 TCACACTGGAAGACTCCAGGTCAGG-AGCCACTTGCCACCCTGCACACTG  13340
+                     ||||||||||||||||||||| ||| ||.|.|.||..|...|  |...|.
+69471174-6948   8885 TCACACTGGAAGACTCCAGGT-AGGAAGGCGCGTGGTAGGTT--AGGTTA   8931
+
+c7687490-7668  13341 GCCTG-CTGTGCCCCAGCCTCTGCTTGCCTCTG----AC----CCCTGGG  13381
+                     ||||| .|.|.|||||||.|||||.||..||||    ||    |||   |
+69471174-6948   8932 GCCTGTTTCTTCCCCAGCTTCTGCCTGTTTCTGTTCCACGAGTCCC---G   8978
+
+c7687490-7668  13382 CCC---ACCTCTTACCGA-------TTTCTTCCATACTACTACCC-ATCC  13420
+                     |||   |||.|.|.||.|       ||..|||       |||||| |||.
+69471174-6948   8979 CCCCCTACCACATGCCCAACGCTCTTTGGTTC-------CTACCCTATCT   9021
+
+c7687490-7668  13421 ACCTCTCATCACATCCCCGGCGGGGAA-TCTCCTTACTGCTCCCACTCAG  13469
+                     ||||      |.||          ||| ||||||          .|||.|
+69471174-6948   9022 ACCT------AAAT----------GAAGTCTCCT----------CCTCTG   9045
+
+c7687490-7668  13470 TTTTCTTTTCTCTGGCTTTGGGAC--CTCTTAACCTGTGGCTTCTCCTCC  13517
+                     |||.|   |||..|||||.|||||  ||||| |.|||||||||||     
+69471174-6948   9046 TTTCC---TCTTGGGCTTAGGGACGTCTCTT-ATCTGTGGCTTCT-----   9086
+
+c7687490-7668  13518 ACC----TACCTGGAGCTGGAGCTTAGGCTCCAGAAAGGACAAGGGTGGT  13563
+                       |    |.||||.|.|||||.|||.||||.||||.|.||||||.|.|||
+69471174-6948   9087 --CGGGGTTCCTGTAACTGGACCTTTGGCTGCAGATATGACAAGAGGGGT   9134
+
+c7687490-7668  13564 TGGGAGTAGAT-GGAGCCTGGTTTTTTAAATGGGACAGGTAGGA------  13606
+                     |||||..||.| ||.||||.|   ||||.|   .||||..||||      
+69471174-6948   9135 TGGGAACAGGTGGGGGCCTAG---TTTACA---CACAGTCAGGATGGGGC   9178
+
+c7687490-7668  13607 CCTGATTTCCTTACTGCCTCTTGCT--TCTCTTTTCCTATCCTGAGTAGT  13654
+                     ||.|.||| ||||||||||..||||  || ||||||.|.|||.|..||||
+69471174-6948   9179 CCAGCTTT-CTTACTGCCTTGTGCTGGTC-CTTTTCTTGTCCCGGATAGT   9226
+
+c7687490-7668  13655 GGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCC  13704
+                     ||.||.||.|||||||||.|||||||||||||.||||||||||||||.||
+69471174-6948   9227 GGGAACCTTCTGGGACGGGACAGCTTTGAGGTTCGTGTTTGTGCCTGCCC   9276
+
+c7687490-7668  13705 TGGGAGAGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAG-  13753
+                     ||||||||||||.||.|||||.|||||.|||.||||||  |||.||.|| 
+69471174-6948   9277 TGGGAGAGACCGCCGTACAGAAGAAGAAAATTTCCGCA--AAAAGGAAGT   9324
+
+c7687490-7668  13754 -CCTCACCACGAGCTGCCCCCAGGGAGCACTAAGCGAGGTAAGCAAGCAG  13802
+                      |.|..||..||.|||||||||||||||.|.|||.||||||.|||.||.|
+69471174-6948   9325 CCTTTGCCCTGAACTGCCCCCAGGGAGCGCAAAGAGAGGTACGCAGGCGG   9374
+
+c7687490-7668  13803 GA-CAAGAAGCGGTGGAGGAGACCAAGGGTGCAGTTATGCCTCAGATTCA  13851
+                     || ||||  |.||.|||||||.|              || .|.||.||||
+69471174-6948   9375 GACCAAG--GAGGCGGAGGAGCC--------------TG-TTGAGCTTCA   9407
+
+c7687490-7668  13852 CTTTTA--TCACCTTTCCTTGCCTCTTTCCT-----AGCACTGCCCAACA  13894
+                     |....|  ||||||   |||| ||||.||||     |||.|||||||.|.
+69471174-6948   9408 CCCCAAAGTCACCT---CTTG-CTCTCTCCTTCCACAGCGCTGCCCACCT   9453
+
+c7687490-7668  13895 ACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATAT  13944
+                     .|||.|||.|||||||||.||.||||||.||||||||.||||||||.|||
+69471174-6948   9454 GCACAAGCGCCTCTCCCCCGCAAAAGAAAAAACCACTTGATGGAGAGTAT   9503
+
+c7687490-7668  13945 TTCACCCTTCAGGTACTAAGTCTTGGGACCTCTTATCAAGTGGAAAGT--  13992
+                     ||||||||..||||||.|||.|                  ||||.|||  
+69471174-6948   9504 TTCACCCTCAAGGTACCAAGGC------------------TGGAGAGTCG   9535
+
+c7687490-7668  13993 --TTCCAGTCTAACACTCAAAATGCCGTTTTCTTCTTGACTGTTTTACCT  14040
+                       |.||||      |..|||                     |.|.|||| 
+69471174-6948   9536 CATGCCAG------AGACAA---------------------GCTGTACC-   9557
+
+c7687490-7668  14041 GCAATTGGGGCATTTGCCATCAGGGGGCAGTGATGCCTCAAAGACAATGG  14090
+                               ||||    ||             ||||||        ||.
+69471174-6948   9558 ----------CATT----AT-------------TGCCTC--------TGT   9572
+
+c7687490-7668  14091 CTCCTGGTTGTAGCTAACTAACTTCAGAACACCAACTTATACCATAATAT  14140
+                     |||       |.||                                ||.|
+69471174-6948   9573 CTC-------TCGC--------------------------------ATGT   9583
+
+c7687490-7668  14141 ATATTTTAAAGGACCAGACCAGCTTTCAAAAAGAAAATTGTTAAAGAGAG  14190
+                     |||                        |||.||     |||||   ..||
+69471174-6948   9584 ATA------------------------AAATAG-----TGTTA---TTAG   9601
+
+c7687490-7668  14191 CATGAAAATGGTT-CTATGACTTTGCCTGATACAGATGCTACTTGACTTA  14239
+                     ||       |||| |.|.|.||||                          
+69471174-6948   9602 CA-------GGTTGCCAGGTCTTT--------------------------   9618
+
+c7687490-7668  14240 CGATGGTGTTACTTCCTGATAAACTCGTCGTAAGTTGAAAATATTGTAAG  14289
+                                 |||                                   
+69471174-6948   9619 ------------TTC-----------------------------------   9621
+
+c7687490-7668  14290 TTGAAAATGGATTTAATACACCTAATCTAAGGAACATCATAGCTTAGCCT  14339
+                          |.|||.|||          ||||                    ||
+69471174-6948   9622 -----AGTGGCTTT----------ATCT--------------------CT   9636
+
+c7687490-7668  14340 AGCCTGCTTTTTTTTTTTTTTTTTTTGGAGACAGAGTCTCACTCTGTCAC  14389
+                     ||||                       |.||||             |.| 
+69471174-6948   9637 AGCC-----------------------GTGACA-------------TTA-   9649
+
+c7687490-7668  14390 CCAGGCTGGAGTGCAGTGGCGGGATCTCGGCTCACTGCAACCTCCGCCTT  14439
+                         |||.|||.|                                     
+69471174-6948   9650 ----GCTTGAGAG-------------------------------------   9658
+
+c7687490-7668  14440 CTGGGTTCAAGCGATTCTCCTGCCTCAGCCCACTGAGTAGCTGGGATTAC  14489
+                                     |||.||        |.|||||  ||||.|     
+69471174-6948   9659 ----------------CTCATG--------CTCTGAG--GCTGTG-----   9677
+
+c7687490-7668  14490 AGGCACCTGCCCCGACGCCCAGCTAATTTTTTGTTATTTATTTATTTTTT  14539
+                          |||.|.|||||                                  
+69471174-6948   9678 -----CCTCCTCCGAC----------------------------------   9688
+
+c7687490-7668  14540 TTTTTAGTAGAGATGAGGTTTCACCATGTTGGCCAGGCT-AGTCTCGAAC  14588
+                          |||        ||||                 || |||.|  |||
+69471174-6948   9689 -----AGT--------GGTT-----------------CTCAGTGT--AAC   9706
+
+c7687490-7668  14589 TCCTGACCTTGTGATCTGCCTGCCTTGGCCTCCCAAAGTGCTGGGATTAC  14638
+                     |    |.||||..|.|               .||||         .||||
+69471174-6948   9707 T----AACTTGACAAC---------------ACCAA---------CTTAC   9728
+
+c7687490-7668  14639 AGGCGTGAGCCACCGCACCCGGCCTGCCTAGCCTACTTTTATTTTATTTT  14688
+                     |        |||                                      
+69471174-6948   9729 A--------CCA--------------------------------------   9732
+
+c7687490-7668  14689 TAATGGAGACAGCATCTTGCTCTGTTGC-CCAGGCTGGATTACAGTGATG  14737
+                     ||    ||||||    .|||||     | |||  |||       |.||||
+69471174-6948   9733 TA----AGACAG----GTGCTC-----CTCCA--CTG-------GGGATG   9760
+
+c7687490-7668  14738 TGATCATAGCTCATTATACCCTCCTGGGCTCAAGCAATCCCCCTAACTCT  14787
+                     .||.|||             .||||.||               .||||  
+69471174-6948   9761 GGAACAT-------------GTCCTAGG---------------AAACT--   9780
+
+c7687490-7668  14788 GCCTCCCCAGTAGCTAGGACCACAGGCATACACCACCATACCCAGCTAAT  14837
+                                                      |||||||       || 
+69471174-6948   9781 ---------------------------------CACCATA-------AA-   9789
+
+c7687490-7668  14838 TTTTAAAATTTTTTGTAGATAGATAGAGTCTCACTATGTTGCCCAGGCTG  14887
+                      ||.|||||                  ..|.|||.|       ||     
+69471174-6948   9790 -TTGAAAAT------------------AACACACGA-------CA-----   9808
+
+c7687490-7668  14888 GTCTCTAGCCTACTTTTTTGAGACAAGGTCTTGCTCTGTCACCCAGGCTG  14937
+                                           |.||.||.||                  
+69471174-6948   9809 ----------------------AAAATGTGTT------------------   9818
+
+c7687490-7668  14938 GATAGAGTGCAGTAGTGCAGTCACAGCTCACTGCAGCCTCCACCTCCCAG  14987
+                       |||||                         ||||              
+69471174-6948   9819 --TAGAG-------------------------GCAG--------------   9827
+
+c7687490-7668  14988 GCTCCATCCATCCTCCCAGCTCAGCCTCCCAAGTTGCTTCAACTACAGGC  15037
+                                            ||||     |.||              
+69471174-6948   9828 -----------------------GCCT-----GGTG--------------   9835
+
+c7687490-7668  15038 CTGCACCACCATGCCTGGCTAATTTTTATTTATTTATTTTTATTTTATTT  15087
+                       |||||    ||||||  |||||                          
+69471174-6948   9836 --GCACC----TGCCTG--TAATT--------------------------   9851
+
+c7687490-7668  15088 TATTTTATTTTTTTGAGACTCAGTCTCACTCTGTCGCCCAGGCTGGAGTG  15137
+                                        .|||   ||||     |...|||.||  ||.
+69471174-6948   9852 -------------------ACAG---CACT-----GAAGAGGGTG--GTT   9872
+
+c7687490-7668  15138 CA---GTGGCATGATCTCGGCTCACTGCAACCTCTGCCTCCTGGGTTCAA  15184
+                     ||   .|||||.||        .|..|.||||               |||
+69471174-6948   9873 CAAAGCTGGCAAGA--------AAAAGTAACC---------------CAA   9899
+
+c7687490-7668  15185 GTGATTCTCCTGCCTCAGCCTCCCGAATAGCTAGGACTACAAGCGCCTGC  15234
+                     |                       |||     |||||             
+69471174-6948   9900 G-----------------------GAA-----AGGAC-------------   9908
+
+c7687490-7668  15235 TACCACGCCCAGCTAATTTTTGTATT----TTTAGTAGAGACAGGGTTTC  15280
+                                            |||    ||||        |||||.|.
+69471174-6948   9909 -----------------------ATTGGGGTTTA--------AGGGTATA   9927
+
+c7687490-7668  15281 AC-CATGTTGGCCAGGCTGGTCTCGAACTTCTGACCATGTGATCCGCCCG  15329
+                     || || |||  |||||.|        ||||                    
+69471174-6948   9928 ACTCA-GTT--CCAGGAT--------ACTT--------------------   9946
+
+c7687490-7668  15330 CCTCGGCCTCCCAAAGTGCTGGGATTACAGGTGTGAGCCACCACG-CCCG  15378
+                          |||     ||||             |||||     |||.| ||||
+69471174-6948   9947 -----GCC-----AAGT-------------GTGTG-----CCAGGCCCCG   9968
+
+c7687490-7668  15379 GCTAATTTTTATTTATTTATTTAAAGACAGAGTCTCACTCTGTCACTCAG  15428
+                     |                 |||                             
+69471174-6948   9969 G-----------------ATT-----------------------------   9972
+
+c7687490-7668  15429 GCTAGAGTGCAGTGGCACCATCTCAGCTCACTGCAGCCTTGACCTCCCTG  15478
+                                             ||.||.|  ||||             
+69471174-6948   9973 ------------------------AGGTCCC--CAGC-------------   9983
+
+c7687490-7668  15479 GGCTC-CGGTG-ATTTCACCCTCCCAAGTAGCTAGGACTACAGGCACATG  15526
+                     ||||| ||||| .|||          |||                     
+69471174-6948   9984 GGCTCACGGTGCCTTT----------AGT---------------------  10002
+
+c7687490-7668  15527 CCACGACACCCAGCTAATTTTTTATTTTCTGTGAAGTCAAGGTCTTGCTA  15576
+                              |||.||||                                 
+69471174-6948  10003 ---------CCACCTAA---------------------------------  10010
+
+c7687490-7668  15577 CGTTGCCCATGCTGGTATCAAACCCCTGGGCTCAATCAATCCTTCCACCT  15626
+                          ||||         |||    ||||.|||          |.||.||
+69471174-6948  10011 -----CCCA---------CAA----CTGGACTC----------TACAGCT  10032
+
+c7687490-7668  15627 CAGCCTCCCCAAGTATTGGGGTTACAGGCATGAGCTACCACACTCAGCCC  15676
+                     ||| |||||          ||||                       ||||
+69471174-6948  10033 CAG-CTCCC----------GGTT-----------------------GCCC  10048
+
+c7687490-7668  15677 TAGCCTACTTGAAACGTGTTCAGAGCATTTAAGTTACCCTACAGTTGGGC  15726
+                                     ||||.||.|    |..|||.||            
+69471174-6948  10049 ----------------TGTTAAGCG----TCTGTTCCC------------  10066
+
+c7687490-7668  15727 AAAGTCATCTAACACAAAGCCCTTTTTATAGTAATAAAA---TGTTGTAT  15773
+                            ||||||..|||           ||  ||..||   ||||||| 
+69471174-6948  10067 -------TCTAACTGAAA-----------AG--ATCCAAGCTTGTTGTA-  10095
+
+c7687490-7668  15774 ATCTCATGTGATTTATTGAATATTGTTACTGAAAGTGAGAAACAGCATGG  15823
+                         ||.||  |.||.|||||                             
+69471174-6948  10096 ----CACGT--TCTACTGAAT-----------------------------  10110
+
+c7687490-7668  15824 TTGCATGAAAGGAGGCACAGTCGAGCCAGGCACAGCCTGGGCGCAGAGCG  15873
+                                                                       
+69471174-6948  10111 --------------------------------------------------  10110
+
+c7687490-7668  15874 AGACTCAAAAAAAGAAAAGGCCAGGCGCACTGGCTCACGCCTGTAATCCC  15923
+                                                           ||||||.|    
+69471174-6948  10111 --------------------------------------GCCTGTTA----  10118
+
+c7687490-7668  15924 AGCATTTCGGGAGGCTGAGGCGGGTGGATCACCTGAGGTCAGGAGTTCAA  15973
+                        .||||                                          
+69471174-6948  10119 ---CTTTC------------------------------------------  10123
+
+c7687490-7668  15974 GACCAGCCTAGCCAACATGGTGAAACCCCGTCTCTACTAAAATACAAAAA  16023
+                                             ||.||.||| ||.||||         
+69471174-6948  10124 ------------------------ACACCATCT-TATTAAA---------  10139
+
+c7687490-7668  16024 TTAACCGGGCGTGATGGCAGGTGCCTGTAATCCCAGCTACTTGGGAGGCT  16073
+                                 ||||                                  
+69471174-6948  10140 ------------GATG----------------------------------  10143
+
+c7687490-7668  16074 GAGGCAGGAGAATCGCTTGAACCAGGAGGCGGAGGTTGCAGGGAGCCAAG  16123
+                                |||.|                                  
+69471174-6948  10144 -----------ATCTC----------------------------------  10148
+
+c7687490-7668  16124 ATGGCGCCACTGCACTCCAGCCTGGGCGATAGAGTGAGACTCCGTCTCAG  16173
+                           ||.|  |.|.|||                             |.
+69471174-6948  10149 ------CCCC--CCCCCCA-----------------------------AA  10161
+
+c7687490-7668  16174 AAAAAAAAGAAAAGAAACGAGGCACAGTCGCATGCACATGTAGTCCCAGT  16223
+                     ||||||||.||||.||                                  
+69471174-6948  10162 AAAAAAAACAAAACAA----------------------------------  10177
+
+c7687490-7668  16224 TACTTGAGAGGCTAAGGCAGGAGGATCTCTTGAGCCCAAGAGTTTGAGTC  16273
+                                                                       
+69471174-6948  10178 --------------------------------------------------  10177
+
+c7687490-7668  16274 CAGCCTGAACAACATAGCAAGACATCATCTCTAAAATTTAA-AAAAGGGC  16322
+                            |||||                           || ||||    
+69471174-6948  10178 -------AACAA---------------------------AACAAAA----  10189
+
+c7687490-7668  16323 CGGGCACAGTGGCTCACACCTGTAATCCCAGCACTTTGGGAGGTGGAGGT  16372
+                                      ||||||||                 ||||||  
+69471174-6948  10190 -----------------ACCTGTAA-----------------GTGGAG--  10203
+
+c7687490-7668  16373 GGGTAGATCACCTGACGTCAGGAGTTGGAAACCAGCCTGGCTAACATGGT  16422
+                            .||.||.|       ||||||.|||||                
+69471174-6948  10204 -------CCAGCTTA-------AGTTGGGAACCA----------------  10223
+
+c7687490-7668  16423 GAAGCCCCATCTCTACTAAAAACACAAAAATTAGCCAGGTGTGGTAGCAC  16472
+                                                                       
+69471174-6948  10224 --------------------------------------------------  10223
+
+c7687490-7668  16473 ACGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCACAAGAATCACTTGA  16522
+                                                                 ||||  
+69471174-6948  10224 --------------------------------------------ACTT--  10227
+
+c7687490-7668  16523 ACCCCAGAGGCGGAGATTGCAATCAGCCAAGATTGCACCATTGCACTCCC  16572
+                                           ||||                        
+69471174-6948  10228 ----------------------TCAG------------------------  10231
+
+c7687490-7668  16573 GCCTGGGCAACAGAGTGAGACCCCATCTCAAAATAAATAAATAAATATTT  16622
+                                                           |||.||| .||.
+69471174-6948  10232 --------------------------------------AAAGAAA-GTTG  10242
+
+c7687490-7668  16623 TTAAAA--GTCAGCTGTATAGGTACTTGAAGTGCAGTTTCTACTAAATGC  16670
+                     ||||||  ||.|                |||||                 
+69471174-6948  10243 TTAAAATCGTGA----------------AAGTG-----------------  10259
+
+c7687490-7668  16671 ATGTTGCTTTTGT-ACCGTCATAAAGTCAAACAATTGTAACTTGAACCAT  16719
+                       ||||    ||| |||                 ||||        ||| 
+69471174-6948  10260 --GTTG----TGTGACC-----------------TTGT--------CCA-  10277
+
+c7687490-7668  16720 CTTTTAACTCAGGTACTGTGTATATACTTACTTCTCCCCCTCCTCTGTTG  16769
+                                      |||      |||.|.||| |.|.||.||| .||
+69471174-6948  10278 -----------------GTG------CTTCCATCT-CACTTCATCT-CTG  10302
+
+c7687490-7668  16770 CTGCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGA  16819
+                     |||||||||||.||||||.|.|||||||||||||||||.|||||||||||
+69471174-6948  10303 CTGCAGATCCGCGGGCGTAAACGCTTCGAGATGTTCCGGGAGCTGAATGA  10352
+
+c7687490-7668  16820 GGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCA  16869
+                     ||||||.||..|.|||||||||||.|||....|||||.|.||.|..||||
+69471174-6948  10353 GGCCTTAGAGTTAAAGGATGCCCATGCTACAGAGGAGTCTGGAGACAGCA  10402
+
+c7687490-7668  16870 GGGCTCACTCCAGGTGAGTGACCT----CAGCCCCTTCCTG----GCCCT  16911
+                     |||||||||||||||.||||.|||    ||||.|||.||||    ||.||
+69471174-6948  10403 GGGCTCACTCCAGGTAAGTGGCCTGGGGCAGCGCCTGCCTGTGGTGCTCT  10452
+
+c7687490-7668  16912 ACTCCCCTG-CCTTCCTAGGTTGGAAAGCCATAGGATTCCATTCTCATCC  16960
+                     |   |||.| |||.||                     |||| .||||   
+69471174-6948  10453 A---CCCAGACCTCCC---------------------TCCA-GCTCA---  10474
+
+c7687490-7668  16961 TGCCTTCATGGTCAAAGGCAGCTGACCCCATCTCATTGGGTCCCAGCCCT  17010
+                      |||||..|.||.||||..| ...||||||                ||||
+69471174-6948  10475 -GCCTTTGTAGTGAAAGATA-AAAACCCCA----------------CCCT  10506
+
+c7687490-7668  17011 GCACAGACATTTTTTTAGTCTTCCTCCGGTTGAATCCTA-------TAAC  17053
+                     || .|||    |..||||         ||.||.|.||||       |.||
+69471174-6948  10507 GC-TAGA----TGCTTAG---------GGCTGCACCCTACGAGAACTGAC  10542
+
+c7687490-7668  17054 CACATTCTT---------GCCTCAGT------GTATCCACAGAACATCCA  17088
+                         |||||         |.|||.||      ||||              
+69471174-6948  10543 ----TTCTTGACTTTTTAGGCTCTGTTAAGGGGTAT--------------  10574
+
+c7687490-7668  17089 AACCCAGGGACGA-GTGTGGATACTTCTTTGCCATTCTCCGCAACTCCCA  17137
+                         .||||||.| ||.|||         ||.|||.||||...|.||.||
+69471174-6948  10575 ----GAGGGACAAGGTATGG---------TGTCATGCTCCTATAATCTCA  10611
+
+c7687490-7668  17138 GCCCAGAGCT--GGAGG-----GTCTCAAGGAGGGGCCTAATAATTGTGT  17180
+                     ||    || |  |||.|     |||   ||||||        |.|||.|.
+69471174-6948  10612 GC----AG-TAAGGAAGACAAAGTC---AGGAGG--------ATTTGGGG  10645
+
+c7687490-7668  17181 AATACTGAATACAGCCAGAGTTTCAGGTCATATACTCAGCCCTGCCATGC  17230
+                     |                 |||||.|            ||||.|  |||  
+69471174-6948  10646 A-----------------AGTTTGA------------AGCCTT--CAT--  10662
+
+c7687490-7668  17231 ACCGGCAGGTCCTAGGTGACCCCCGTCAAACTCAGTTTCCTTATATATAA  17280
+                                                ||||            |||||||
+69471174-6948  10663 ---------------------------AAAC------------TATATAA  10673
+
+c7687490-7668  17281 AA--TGGGGTAAGGGGGCC-----GGGCGCAGTGGCTCACGAATCCCACA  17323
+                     ||  |    ||    ||||     ||||    |.|||          |||
+69471174-6948  10674 AACTT----TA----GGCCAGCTAGGGC----TAGCT----------ACA  10701
+
+c7687490-7668  17324 CTCTGGGAGGCCAAGGCGAGTGGATCACCTGAGGTCGGGAGTTTGAGCCC  17373
+                     .|     ||  ||||                                   
+69471174-6948  10702 AT-----AG--CAAG-----------------------------------  10709
+
+c7687490-7668  17374 AGCCTGACCAACATGGAGAAACCCCATCTCTACTAAAAATACAAAAGTAG  17423
+                     |.||||.|  .|||||.||                               
+69471174-6948  10710 ACCCTGTC--TCATGGTGA-------------------------------  10726
+
+c7687490-7668  17424 CCGGGCGTGGTGATGCATGCCTGTAATCCCAGCTACCTACTCGGGAGGCT  17473
+                            |||||||| |||   ||                   ||.||..
+69471174-6948  10727 -------TGGTGATG-ATG---GT-------------------GGTGGTG  10746
+
+c7687490-7668  17474 GAGGCAG----GAGAATCGCTTGAACCCGGGAGGCAGAGGTTGCGGTGA-  17518
+                     |.|.|||    ||.|||      ||      .|||||.|||   ||||| 
+69471174-6948  10747 GTGACAGTTGTGATAAT------AA------TGGCAGTGGT---GGTGAT  10781
+
+c7687490-7668  17519 GCTGAGATCTCACCATTACACTCCAGCCTGG----GCAACAAGAGTGAAA  17564
+                     |.|||                       |||    |        |||   
+69471174-6948  10782 GATGA-----------------------TGGTGGTG--------GTG---  10797
+
+c7687490-7668  17565 CTCCGTCTCAAAAAAGATAAATAAAGTAAAATGGGGTAAGGGAAGATTAC  17614
+                                  |.|||      .||  .||||.|.||||||.|||   
+69471174-6948  10798 -------------ATGAT------GGT--GATGGTGAAAGGGAGGAT---  10823
+
+c7687490-7668  17615 GAGACTAATACACACTAATACTCTGAG-GTGCTCAGTAAA----------  17653
+                      |.|||.||.|.||..|.||.|| .|| |||.||.||.||          
+69471174-6948  10824 -AAACTGATTCTCAGAAGTATTC-CAGTGTGTTCTGTGAATATCCCTACC  10871
+
+c7687490-7668  17654 CATATTTGCATGGGGTGTGGCCACCATCTTGATTTGAATTCCCGTTGTCC  17703
+                     ||||            ||.|...|||||||      ||.|.||.||.|..
+69471174-6948  10872 CATA------------GTAGAAGCCATCTT------AAATTCCTTTTTTT  10903
+
+c7687490-7668  17704 CAGCCT------TAGGCCCTTCAAAGCATTGGTCAGGGA--AAAGGGGCA  17745
+                     ||||||      |||..|||||.||||.|||.|||.|||  |||   ||.
+69471174-6948  10904 CAGCCTCCAGCCTAGAGCCTTCCAAGCCTTGATCAAGGAGGAAA---GCC  10950
+
+c7687490-7668  17746 CAGAC--------CCTCTCACTCATGTGATGTCATCTCTCCTCCCTGCTT  17787
+                     ||.||        ||..|||||         |||||   ||||||...||
+69471174-6948  10951 CAAACTGCTAGCTCCCATCACT---------TCATC---CCTCCCCTTTT  10988
+
+c7687490-7668  17788 CTGTC-TCCTACAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCG  17836
+                     ||||| |||||.|||.||||||||.||||.|||||.||||||||.|||||
+69471174-6948  10989 CTGTCTTCCTATAGCTACCTGAAGACCAAGAAGGGCCAGTCTACTTCCCG  11038
+
+c7687490-7668  17837 CCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTGACATT  17886
+                     ||||||||||...|||.||||||.||..|||||||||||||||||||...
+69471174-6948  11039 CCATAAAAAAACAATGGTCAAGAAAGTGGGGCCTGACTCAGACTGACTGC  11088
+
+c7687490-7668  17887 CTCCACTTCTTGTTCCC--CACTGACAGCCTCCCACCCCCATCTCTCCCT  17934
+                     |||..|.||..||.|||  |||   ||||||||             ||||
+69471174-6948  11089 CTCTGCATCCCGTCCCCATCAC---CAGCCTCC-------------CCCT  11122
+
+c7687490-7668  17935 CCCCTGCCATTTTGGGTTTTG-GGTCTT-TGAACCCTTGCTTGCAATAGG  17982
+                     |.||              ||| .||||| |||       |||    .|||
+69471174-6948  11123 CTCC--------------TTGCTGTCTTATGA-------CTT----CAGG  11147
+
+c7687490-7668  17983 TGTGCGTCAGAAGCACCCAGGACTTCCATTTGCTTTGTCCCGGGGCTCC-  18031
+                     ..||.|.||.||            |||          ||||||   ||| 
+69471174-6948  11148 GCTGAGACACAA------------TCC----------TCCCGG---TCCC  11172
+
+c7687490-7668  18032 -ACTGAACAAGTTGGCCTGCACTGGTGTTTTGTTGTGGGGAGGAGGATGG  18080
+                      .|||           ||||                              
+69471174-6948  11173 TTCTG-----------CTGC------------------------------  11181
+
+c7687490-7668  18081 GGAGTAGGACATACCAGCTTAGATTTTAAGGTTTTTACTGTGAGGGATGT  18130
+                                      ||            |||||||            
+69471174-6948  11182 -----------------CT------------TTTTTAC------------  11190
+
+c7687490-7668  18131 TTGGGAGATGTAAGAAATGTTCTTGCAGTTAAGGGTTAGTTTACAATCAG  18180
+                                          ||||                         
+69471174-6948  11191 ---------------------CTTG-------------------------  11194
+
+c7687490-7668  18181 CCACATTCTAGGTAGGGGCCCACTTCACCGTACTAACCAGGGAAGCTGTC  18230
+                             |||.|||||                                 
+69471174-6948  11195 --------TAGCTAGGG---------------------------------  11203
+
+c7687490-7668  18231 CCTCACTGTTGAATTTTCTCTAACTTCAAGGCCCATATCTGTGAAATGCT  18280
+                      ||||                         ||||                
+69471174-6948  11204 -CTCA-------------------------GCCC----------------  11211
+
+c7687490-7668  18281 GGCATTTGCACCTACCTCACAGAGTGCATTGTGAG-GGTTAATGAAATAA  18329
+                                   ||||.|.||||        || ||||          
+69471174-6948  11212 --------------CCTCTCTGAGT--------AGTGGTT----------  11229
+
+c7687490-7668  18330 TGTACATCTGGCCTTGAAACCACCTTTTATTACATGGGGTCTAGAACTTG  18379
+                           .||||||                   ||                
+69471174-6948  11230 ------CCTGGCC-------------------CA----------------  11238
+
+c7687490-7668  18380 ACCCCCTTGAGGGTGCTTGTTCCCTCTCCCTGTTGGTCGGTGGGTTGGTA  18429
+                                                                       
+69471174-6948  11239 --------------------------------------------------  11238
+
+c7687490-7668  18430 GTTTCTACAGTTGGGCAGCTGGTTAGGTAGAGGGAGTTGTCAAGTCTCTG  18479
+                             |||||||     |..|||||.||  .||||||||.|||||||
+69471174-6948  11239 --------AGTTGGG-----GAATAGGTTGA--TAGTTGTCAGGTCTCTG  11273
+
+c7687490-7668  18480 CTGGCCCAGCCAAACCCTGTCTGACAACCTCTTGGTGAACCTTAGTACCT  18529
+                     ||||||||||.|||..||.||   ||.||..|||.||.|||.|.|.||||
+69471174-6948  11274 CTGGCCCAGCGAAATTCTATC---CAGCCAGTTGTTGGACCCTGGCACCT  11320
+
+c7687490-7668  18530 AAAAGGAAATCTCACCCCATCCCACACCCTGGAGGATTTCATCTCTTGTA  18579
+                     |.||.||||||||||||.|.|||||||||||.|.||||            
+69471174-6948  11321 ACAATGAAATCTCACCCTACCCCACACCCTGTAAGATT------------  11358
+
+c7687490-7668  18580 TATGATGATCTGGATCCACCAAGACTTGTTTTATGCTCAGGGTCAATTTC  18629
+                                                                       
+69471174-6948  11359 --------------------------------------------------  11358
+
+c7687490-7668  18630 TTTTTTCTTTTTTTTTTTTTTTTTTCTTTTTCTTTGAGACTGGGTCTCGC  18679
+                                                                       
+69471174-6948  11359 --------------------------------------------------  11358
+
+c7687490-7668  18680 TTTGTTGCCCAGGCTGGAGTGGAGTGGCGTGATCTTGGCTTACTGCAGCC  18729
+                                  ||                |||||||            
+69471174-6948  11359 -------------CT----------------ATCTTGG------------  11367
+
+c7687490-7668  18730 TTTGCCTCCCCGGCTCGAGCAGTCCTGCCTCAGCCTCCGGAGTAGCTGGG  18779
+                                       ||       |||||          |||     
+69471174-6948  11368 ------------------GC-------CCTCA----------TAG-----  11377
+
+c7687490-7668  18780 ACCACAGGTTCAT-GCCACCATGGCCAGCCAACTTTTGCATGTTTTGTAG  18828
+                           |||.||| .||.|||.|    |||.||||               
+69471174-6948  11378 ------GGTCCATATCCTCCAGG----GCCTACTT---------------  11402
+
+c7687490-7668  18829 AGATGGGGTCTCACAGTGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTCA  18878
+                                                                       
+69471174-6948  11403 --------------------------------------------------  11402
+
+c7687490-7668  18879 GGCGATCCACCTGTCTCAGCCTCCCAGAGTGCTGGGATTACAATTGTGAG  18928
+                                                                       
+69471174-6948  11403 --------------------------------------------------  11402
+
+c7687490-7668  18929 CCACCACGTCCAGCTGGAAGGGTCAACATCTTTTACATTCTGC-AAGCAC  18977
+                             |||                     ||.|||||||| ||||..
+69471174-6948  11403 --------TCC---------------------TTCCATTCTGCAAAGCCT  11423
+
+c7687490-7668  18978 ATCTGCATTT----TCACCCCACCCT-TC-CCCTCCTTCTCCCTTTTTAT  19021
+                     .|||||||||    .|.||||||||| || |||| |||.|...|||||.|
+69471174-6948  11424 GTCTGCATTTATCCACCCCCCACCCTGTCTCCCT-CTTTTTTTTTTTTTT  11472
+
+c7687490-7668  19022 ATCCCATTTT-TATATCGATCTCTTATTTTACAATAAAACTTTGCTGCCA  19070
+                     |.|||.|||| ||||||.||.||.|||||||||||||||.||||.|..||
+69471174-6948  11473 ACCCCTTTTTATATATCAATTTCCTATTTTACAATAAAATTTTGTTATCA  11522
+
+
+#---------------------------------------
+#---------------------------------------
