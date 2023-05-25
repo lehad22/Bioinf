@@ -1,0 +1,15 @@
+Validating your flow...
+    The graph looks good!
+Running pylint...
+    Pylint not found, so extra checks are disabled.
+2023-05-25 22:49:43.996 Workflow starting (run-id 1685029783988602):
+2023-05-25 22:49:44.001 [1685029783988602/start/1 (pid 80989)] Task is starting.
+2023-05-25 22:49:44.364 [1685029783988602/start/1 (pid 80989)] Task finished successfully.
+2023-05-25 22:49:44.371 [1685029783988602/a/2 (pid 80993)] Task is starting.
+2023-05-25 22:49:44.655 [1685029783988602/a/2 (pid 80993)] the data artifact is: hello world
+2023-05-25 22:49:44.735 [1685029783988602/a/2 (pid 80993)] Task finished successfully.
+2023-05-25 22:49:44.739 [1685029783988602/end/3 (pid 80997)] Task is starting.
+2023-05-25 22:49:45.019 [1685029783988602/end/3 (pid 80997)] the data artifact is still: hello world
+2023-05-25 22:49:45.097 [1685029783988602/end/3 (pid 80997)] Task finished successfully.
+2023-05-25 22:49:45.097 Done!
+

@@ -1,0 +1,63 @@
+Validating your flow...
+    The graph looks good!
+Running pylint...
+    Pylint not found, so extra checks are disabled.
+2023-05-25 23:07:27.253 Workflow starting (run-id 1685030847250263):
+2023-05-25 23:07:27.256 [1685030847250263/start/1 (pid 82612)] Task is starting.
+2023-05-25 23:07:27.614 [1685030847250263/start/1 (pid 82612)] Task finished successfully.
+2023-05-25 23:07:27.621 [1685030847250263/fastqc/2 (pid 82616)] Task is starting.
+2023-05-25 23:07:28.081 [1685030847250263/fastqc/2 (pid 82616)] Started analysis of SRR24451057.fastq
+2023-05-25 23:07:28.949 [1685030847250263/fastqc/2 (pid 82616)] Approx 5% complete for SRR24451057.fastq
+2023-05-25 23:07:29.196 [1685030847250263/fastqc/2 (pid 82616)] Approx 10% complete for SRR24451057.fastq
+2023-05-25 23:07:29.662 [1685030847250263/fastqc/2 (pid 82616)] Approx 15% complete for SRR24451057.fastq
+2023-05-25 23:07:30.090 [1685030847250263/fastqc/2 (pid 82616)] Approx 20% complete for SRR24451057.fastq
+2023-05-25 23:07:30.294 [1685030847250263/fastqc/2 (pid 82616)] Approx 25% complete for SRR24451057.fastq
+2023-05-25 23:07:30.716 [1685030847250263/fastqc/2 (pid 82616)] Approx 30% complete for SRR24451057.fastq
+2023-05-25 23:07:31.149 [1685030847250263/fastqc/2 (pid 82616)] Approx 35% complete for SRR24451057.fastq
+2023-05-25 23:07:31.394 [1685030847250263/fastqc/2 (pid 82616)] Approx 40% complete for SRR24451057.fastq
+2023-05-25 23:07:31.820 [1685030847250263/fastqc/2 (pid 82616)] Approx 45% complete for SRR24451057.fastq
+2023-05-25 23:07:32.253 [1685030847250263/fastqc/2 (pid 82616)] Approx 50% complete for SRR24451057.fastq
+2023-05-25 23:07:32.472 [1685030847250263/fastqc/2 (pid 82616)] Approx 55% complete for SRR24451057.fastq
+2023-05-25 23:07:32.934 [1685030847250263/fastqc/2 (pid 82616)] Approx 60% complete for SRR24451057.fastq
+2023-05-25 23:07:33.341 [1685030847250263/fastqc/2 (pid 82616)] Approx 65% complete for SRR24451057.fastq
+2023-05-25 23:07:33.568 [1685030847250263/fastqc/2 (pid 82616)] Approx 70% complete for SRR24451057.fastq
+2023-05-25 23:07:33.993 [1685030847250263/fastqc/2 (pid 82616)] Approx 75% complete for SRR24451057.fastq
+2023-05-25 23:07:34.404 [1685030847250263/fastqc/2 (pid 82616)] Approx 80% complete for SRR24451057.fastq
+2023-05-25 23:07:34.837 [1685030847250263/fastqc/2 (pid 82616)] Approx 85% complete for SRR24451057.fastq
+2023-05-25 23:07:35.235 [1685030847250263/fastqc/2 (pid 82616)] Approx 90% complete for SRR24451057.fastq
+2023-05-25 23:07:35.626 [1685030847250263/fastqc/2 (pid 82616)] Approx 95% complete for SRR24451057.fastq
+2023-05-25 23:07:35.858 [1685030847250263/fastqc/2 (pid 82616)] Analysis complete for SRR24451057.fastq
+2023-05-25 23:07:38.210 [1685030847250263/fastqc/2 (pid 82616)] Task finished successfully.
+2023-05-25 23:07:38.217 [1685030847250263/minimap_instrument/3 (pid 82673)] Task is starting.
+2023-05-25 23:07:38.612 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_idx_gen::0.105*1.00] collected minimizers
+2023-05-25 23:07:38.638 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_idx_gen::0.131*1.37] sorted minimizers
+2023-05-25 23:07:38.672 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main::0.165*1.29] loaded/built the index for 1 target sequence(s)
+2023-05-25 23:07:38.681 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+2023-05-25 23:07:38.681 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_idx_stat::0.174*1.28] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+2023-05-25 23:07:38.687 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main] Version: 2.26-r1175
+2023-05-25 23:07:38.732 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main] CMD: ./minimap2/minimap2 -d ./outputMetaflow/index.mmi ecoli.fna
+2023-05-25 23:07:38.732 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main] Real time: 0.180 sec; CPU: 0.229 sec; Peak RSS: 0.046 GB
+2023-05-25 23:07:38.732 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main::0.037*1.02] loaded/built the index for 1 target sequence(s)
+2023-05-25 23:07:38.743 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_mapopt_update::0.048*1.02] mid_occ = 12
+2023-05-25 23:07:38.751 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+2023-05-25 23:07:38.752 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::mm_idx_stat::0.057*1.02] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+2023-05-25 23:08:06.987 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::worker_pipeline::28.292*2.90] mapped 33105 sequences
+2023-05-25 23:08:06.993 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main] Version: 2.26-r1175
+2023-05-25 23:08:07.094 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main] CMD: ./minimap2/minimap2 -a ./outputMetaflow/index.mmi SRR24451057.fastq
+2023-05-25 23:08:07.095 [1685030847250263/minimap_instrument/3 (pid 82673)] [M::main] Real time: 28.299 sec; CPU: 81.921 sec; Peak RSS: 2.061 GB
+2023-05-25 23:08:07.096 [1685030847250263/minimap_instrument/3 (pid 82673)] Task finished successfully.
+2023-05-25 23:08:07.103 [1685030847250263/samtools_view/4 (pid 82712)] Task is starting.
+2023-05-25 23:08:22.897 [1685030847250263/samtools_view/4 (pid 82712)] Task finished successfully.
+2023-05-25 23:08:22.905 [1685030847250263/samtools_flagstat/5 (pid 82753)] Task is starting.
+2023-05-25 23:08:24.659 [1685030847250263/samtools_flagstat/5 (pid 82753)] Task finished successfully.
+2023-05-25 23:08:24.666 [1685030847250263/check_quality/6 (pid 82776)] Task is starting.
+2023-05-25 23:08:24.958 [1685030847250263/check_quality/6 (pid 82776)] NOT OK
+2023-05-25 23:08:25.034 [1685030847250263/check_quality/6 (pid 82776)] Task finished successfully.
+2023-05-25 23:08:25.042 [1685030847250263/samtools_sort/7 (pid 82783)] Task is starting.
+2023-05-25 23:08:25.409 [1685030847250263/samtools_sort/7 (pid 82783)] Task finished successfully.
+2023-05-25 23:08:25.416 [1685030847250263/freebayes/8 (pid 82787)] Task is starting.
+2023-05-25 23:08:25.777 [1685030847250263/freebayes/8 (pid 82787)] Task finished successfully.
+2023-05-25 23:08:25.782 [1685030847250263/end/9 (pid 82791)] Task is starting.
+2023-05-25 23:08:26.071 [1685030847250263/end/9 (pid 82791)] Done
+2023-05-25 23:08:26.152 [1685030847250263/end/9 (pid 82791)] Task finished successfully.
+2023-05-25 23:08:26.152 Done!
